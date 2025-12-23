@@ -1,0 +1,950 @@
+Currently using CUDA device 0: NVIDIA H200
+Number of SMs: 132
+Text length to process: 306594000 characters
+grid:   4224,     1,     1
+block:   256,     1,     1
+
+[histo_cpu]  a-d:    36058  e-h:    48749  i-l:    24471  m-p:    40889  q-t:    45185  u-x:    13824  y-z:     4829
+[histo_gpu]  a-d:    36058  e-h:    48749  i-l:    24471  m-p:    40889  q-t:    45185  u-x:    13824  y-z:     4829
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations: 72584
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 29.060738 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations: 36292
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 14.598080 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations: 18146
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 7.305887 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:  9073
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 3.612627 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:  4537
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 1.799305 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.904532 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.912695 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   757
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.915172 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.918397 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   379
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.917160 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.919556 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   190
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.920039 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.917436 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:    95
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.909852 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.902546 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:    48
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.911472 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.913548 ms
+
+
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations: 36292
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 14.846445 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations: 18146
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 7.457228 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:  9073
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 3.704672 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:  4537
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 1.836223 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.917160 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.475239 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.478634 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:   379
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.479281 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.481196 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:   190
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.481440 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.485448 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    95
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.484478 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.487195 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    48
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.486387 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.486524 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    24
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.490529 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+
+Grid-Stride Loop Iterations:    18
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.496619 ms
+
+
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations: 18146
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 7.524805 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:  9073
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 3.746993 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:  4537
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 1.850193 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.920569 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.474645 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.478050 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.480579 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:   190
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.481035 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.484991 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    95
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.484250 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.488036 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    48
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.487391 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.487055 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    24
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.490689 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    18
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.496299 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:    12
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.505625 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+
+Grid-Stride Loop Iterations:     9
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.518298 ms
+
+
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:  9073
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 3.745461 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:  4537
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 1.848435 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.918989 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.474693 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.478690 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.481672 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.487190 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    95
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.486761 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.491201 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    48
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.490909 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.491016 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    24
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.495231 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    18
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.501145 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:    12
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.511099 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:     9
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.524333 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:     6
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.546403 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+
+Grid-Stride Loop Iterations:     5
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.570066 ms
+
+
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:  4537
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 1.853778 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.919937 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.474679 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.479049 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.482904 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.489123 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.495183 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    48
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.496091 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.497108 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    24
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.502915 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    18
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.510292 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:    12
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.522325 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:     9
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.537908 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:     6
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.563052 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:     5
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.589820 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:     3
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.639160 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+
+Grid-Stride Loop Iterations:     3
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.692150 ms
+
+
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:  2269
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.921125 ms
+
+
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:  1135
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.475732 ms
+
+
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:   568
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.479818 ms
+
+
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:   284
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.484177 ms
+
+
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:   142
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.491396 ms
+
+
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:    71
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.499491 ms
+
+
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:    36
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.504061 ms
+
+
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:    24
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.511690 ms
+
+
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:    18
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.520879 ms
+
+
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:    12
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.535869 ms
+
+
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     9
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.554594 ms
+
+
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     6
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.584297 ms
+
+
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     5
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.614370 ms
+
+
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     3
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.674252 ms
+
+
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     3
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.733246 ms
+
+
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     2
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.852065 ms
+
+
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+
+Grid-Stride Loop Iterations:     2
+Warmup complete for histo_private_shared_memory_coarsening_interleaved
+Execution time for histo_private_shared_memory_coarsening_interleaved: 0.971631 ms
+
+
+-------------------------------
