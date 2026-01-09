@@ -42,13 +42,13 @@ void check_equal(float *A, float *B, long long size){
     bool is_equal = true;
     for(long long i =0;i<size;++i){
         if (A[i] != B[i]){
-            printf("EQUAL CHECK FAILED! i = %llu ,CPU=%f, GPU=%f",i, A[i], B[i]);
+            printf("EQUAL CHECK FAILED! i = %llu ,CPU=%f, GPU=%f\n\n",i, A[i], B[i]);
             is_equal = false;
             break;
         }
     }
     if (is_equal){
-        printf("EQUAL CHECK SUCCESS!");
+        printf("EQUAL CHECK SUCCESS!\n\n");
     }
 }
 
