@@ -1,0 +1,102 @@
+Benchmark started at: 2026-01-13 18:08:14
+Currently using CUDA device 0: NVIDIA H200
+Total Global Memory: 139.72 GB
+Benchmark Data Size: 4026531840 elements (15.00 GB per array)
+------------------------------------------------------------------------------------------------------------
+grid:  3932160,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel
+Execution time for Kogge_Stone_scan_kernel: 32.803497 ms
+
+
+Effective Bandwidth: 981.98 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  3932160,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_double_buffering
+Execution time for Kogge_Stone_scan_kernel_double_buffering: 29.545376 ms
+
+
+Effective Bandwidth: 1090.26 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  3932160,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_circular_buffer
+Execution time for Kogge_Stone_scan_kernel_circular_buffer: 32.940941 ms
+
+
+Effective Bandwidth: 977.88 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  3932160,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version: 17.453585 ms
+
+
+Effective Bandwidth: 1845.60 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  983040,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 8.687487 ms
+
+
+Effective Bandwidth: 3707.89 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  491520,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 10.538257 ms
+
+
+Effective Bandwidth: 3056.70 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  327680,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 11.099827 ms
+
+
+Effective Bandwidth: 2902.05 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  245760,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 11.472619 ms
+
+
+Effective Bandwidth: 2807.75 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  196608,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 14.923687 ms
+
+
+Effective Bandwidth: 2158.46 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  1966080,     1,     1
+block:  1024,     1,     1
+Warmup complete for Brent_Kung_scan_kernel
+Execution time for Brent_Kung_scan_kernel: 35.584221 ms
+
+
+Effective Bandwidth: 905.24 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  1966080,     1,     1
+block:  1024,     1,     1
+Warmup complete for Brent_Kung_scan_kernel_optimized_padding
+Execution time for Brent_Kung_scan_kernel_optimized_padding: 26.125870 ms
+
+
+Effective Bandwidth: 1232.96 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  1966080,     1,     1
+block:  1024,     1,     1
+Warmup complete for Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access
+Execution time for Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access: 25.773911 ms
+
+
+Effective Bandwidth: 1249.80 GB/s
+------------------------------------------------------------------------------------------------------------
+Benchmark Finished at: 2026-01-13 18:12:34

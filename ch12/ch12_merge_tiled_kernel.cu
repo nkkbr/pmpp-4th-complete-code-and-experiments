@@ -8,7 +8,7 @@
 #include <ctime>
 #include <iomanip>
 
-#define BENCHMARK_REPEAT 1000
+#define BENCHMARK_REPEAT 50
 
 #define CHECK(call)                                                            \
 {                                                                              \

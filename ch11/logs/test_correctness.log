@@ -1,0 +1,65 @@
+Verify started at: 2026-01-13 14:48:45
+Computing CPU Naive Scan for comparison...
+Done.
+
+Kogge_Stone_scan_kernel
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel (N=1024)
+-----------------------
+
+Kogge_Stone_scan_kernel_double_buffering
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_double_buffering (N=1024)
+-----------------------
+
+Kogge_Stone_scan_kernel_circular_buffer
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_circular_buffer (N=1024)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version (N=1024)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4 (N=4096)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8 (N=8192)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12 (N=12288)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16 (N=16384)
+-----------------------
+
+Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20 (N=20480)
+-----------------------
+
+Brent_Kung_scan_kernel
+
+[[32mPASS[0m] Brent_Kung_scan_kernel (N=2048)
+-----------------------
+
+Brent_Kung_scan_kernel_optimized_padding
+
+[[32mPASS[0m] Brent_Kung_scan_kernel_optimized_padding (N=2048)
+-----------------------
+
+Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access
+
+[[32mPASS[0m] Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access (N=2048)
+-----------------------
+
+Verify Finished at: 2026-01-13 14:48:46
