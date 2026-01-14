@@ -1,0 +1,852 @@
+Benchmark started at: 2026-01-14 13:11:18
+Currently using CUDA device 0: NVIDIA H200
+Total Global Memory: 139.72 GB
+Benchmark Data Size: 4026531840 elements (15.00 GB per array)
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 30720
+################################################################
+
+
+grid:      8,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.002454 ms
+
+
+Effective Bandwidth: 100.14 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      4,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.003645 ms
+
+
+Effective Bandwidth: 67.43 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      3,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.004769 ms
+
+
+Effective Bandwidth: 51.53 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      2,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.006341 ms
+
+
+Effective Bandwidth: 38.76 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      2,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.007668 ms
+
+
+Effective Bandwidth: 32.05 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 61440
+################################################################
+
+
+grid:     15,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.002515 ms
+
+
+Effective Bandwidth: 195.45 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      8,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.003694 ms
+
+
+Effective Bandwidth: 133.07 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      5,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.004788 ms
+
+
+Effective Bandwidth: 102.66 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      4,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.006378 ms
+
+
+Effective Bandwidth: 77.07 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      3,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.007735 ms
+
+
+Effective Bandwidth: 63.55 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 122880
+################################################################
+
+
+grid:     30,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.002584 ms
+
+
+Effective Bandwidth: 380.42 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     15,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.003773 ms
+
+
+Effective Bandwidth: 260.53 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     10,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.004900 ms
+
+
+Effective Bandwidth: 200.62 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      8,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.006434 ms
+
+
+Effective Bandwidth: 152.78 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:      6,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.007808 ms
+
+
+Effective Bandwidth: 125.90 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 245760
+################################################################
+
+
+grid:     60,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.002678 ms
+
+
+Effective Bandwidth: 734.07 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     30,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.003967 ms
+
+
+Effective Bandwidth: 495.59 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     20,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.004990 ms
+
+
+Effective Bandwidth: 394.03 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     15,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.006777 ms
+
+
+Effective Bandwidth: 290.13 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     12,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.008008 ms
+
+
+Effective Bandwidth: 245.52 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 491520
+################################################################
+
+
+grid:    120,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.002893 ms
+
+
+Effective Bandwidth: 1359.40 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     60,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.004093 ms
+
+
+Effective Bandwidth: 960.76 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     40,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.005155 ms
+
+
+Effective Bandwidth: 762.78 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     30,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.007190 ms
+
+
+Effective Bandwidth: 546.88 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     24,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.008037 ms
+
+
+Effective Bandwidth: 489.24 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 983040
+################################################################
+
+
+grid:    240,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.003471 ms
+
+
+Effective Bandwidth: 2265.99 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    120,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.005035 ms
+
+
+Effective Bandwidth: 1561.88 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     80,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.005878 ms
+
+
+Effective Bandwidth: 1337.86 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     60,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.007642 ms
+
+
+Effective Bandwidth: 1029.07 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     48,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.008465 ms
+
+
+Effective Bandwidth: 929.06 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 1966080
+################################################################
+
+
+grid:    480,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.004977 ms
+
+
+Effective Bandwidth: 3160.56 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    240,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.007431 ms
+
+
+Effective Bandwidth: 2116.56 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    160,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.009798 ms
+
+
+Effective Bandwidth: 1605.36 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    120,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.009627 ms
+
+
+Effective Bandwidth: 1633.81 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:     96,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.011322 ms
+
+
+Effective Bandwidth: 1389.21 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 3932160
+################################################################
+
+
+grid:    960,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.008050 ms
+
+
+Effective Bandwidth: 3907.92 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    480,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.012737 ms
+
+
+Effective Bandwidth: 2469.83 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    320,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.014945 ms
+
+
+Effective Bandwidth: 2104.83 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    240,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.015235 ms
+
+
+Effective Bandwidth: 2064.78 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    192,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.018386 ms
+
+
+Effective Bandwidth: 1710.92 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 7864320
+################################################################
+
+
+grid:   1920,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.021117 ms
+
+
+Effective Bandwidth: 2979.38 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    960,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.025031 ms
+
+
+Effective Bandwidth: 2513.47 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    640,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.029262 ms
+
+
+Effective Bandwidth: 2150.02 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    480,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.032179 ms
+
+
+Effective Bandwidth: 1955.13 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    384,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.038643 ms
+
+
+Effective Bandwidth: 1628.09 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 15728640
+################################################################
+
+
+grid:   3840,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.037925 ms
+
+
+Effective Bandwidth: 3317.81 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   1920,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.045265 ms
+
+
+Effective Bandwidth: 2779.82 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   1280,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.051234 ms
+
+
+Effective Bandwidth: 2455.97 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    960,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.054535 ms
+
+
+Effective Bandwidth: 2307.31 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:    768,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.068634 ms
+
+
+Effective Bandwidth: 1833.34 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 31457280
+################################################################
+
+
+grid:   7680,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.071678 ms
+
+
+Effective Bandwidth: 3510.98 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   3840,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.086644 ms
+
+
+Effective Bandwidth: 2904.52 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   2560,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.094090 ms
+
+
+Effective Bandwidth: 2674.64 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   1920,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.100148 ms
+
+
+Effective Bandwidth: 2512.88 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   1536,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.124466 ms
+
+
+Effective Bandwidth: 2021.91 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 62914560
+################################################################
+
+
+grid:  15360,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.139442 ms
+
+
+Effective Bandwidth: 3609.52 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   7680,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.169574 ms
+
+
+Effective Bandwidth: 2968.12 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   5120,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.180854 ms
+
+
+Effective Bandwidth: 2783.01 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   3840,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.189461 ms
+
+
+Effective Bandwidth: 2656.57 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   3072,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.241449 ms
+
+
+Effective Bandwidth: 2084.56 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 125829120
+################################################################
+
+
+grid:  30720,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.275123 ms
+
+
+Effective Bandwidth: 3658.85 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  15360,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.335617 ms
+
+
+Effective Bandwidth: 2999.35 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  10240,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.354116 ms
+
+
+Effective Bandwidth: 2842.67 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   7680,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.368175 ms
+
+
+Effective Bandwidth: 2734.12 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:   6144,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.473878 ms
+
+
+Effective Bandwidth: 2124.25 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 251658240
+################################################################
+
+
+grid:  61440,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 0.546204 ms
+
+
+Effective Bandwidth: 3685.93 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  30720,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 0.667355 ms
+
+
+Effective Bandwidth: 3016.78 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  20480,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 0.698933 ms
+
+
+Effective Bandwidth: 2880.49 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  15360,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 0.726378 ms
+
+
+Effective Bandwidth: 2771.65 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  12288,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 0.935703 ms
+
+
+Effective Bandwidth: 2151.61 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 503316480
+################################################################
+
+
+grid:  122880,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 1.088825 ms
+
+
+Effective Bandwidth: 3698.05 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  61440,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 1.327052 ms
+
+
+Effective Bandwidth: 3034.19 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  40960,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 1.392846 ms
+
+
+Effective Bandwidth: 2890.87 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  30720,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 1.442924 ms
+
+
+Effective Bandwidth: 2790.54 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  24576,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 1.868506 ms
+
+
+Effective Bandwidth: 2154.95 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 1006632960
+################################################################
+
+
+grid:  245760,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 2.173973 ms
+
+
+Effective Bandwidth: 3704.31 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  122880,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 2.644121 ms
+
+
+Effective Bandwidth: 3045.65 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  81920,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 2.779441 ms
+
+
+Effective Bandwidth: 2897.37 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  61440,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 2.875870 ms
+
+
+Effective Bandwidth: 2800.22 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  49152,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 3.731450 ms
+
+
+Effective Bandwidth: 2158.16 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 2013265920
+################################################################
+
+
+grid:  491520,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 4.344698 ms
+
+
+Effective Bandwidth: 3707.08 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  245760,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 5.278286 ms
+
+
+Effective Bandwidth: 3051.39 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  163840,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 5.552982 ms
+
+
+Effective Bandwidth: 2900.45 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  122880,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 5.742026 ms
+
+
+Effective Bandwidth: 2804.96 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  98304,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 7.461990 ms
+
+
+Effective Bandwidth: 2158.42 GB/s
+------------------------------------------------------------------------------------------------------------
+
+
+################################################################
+Starting Benchmark for Total_N: 4026531840
+################################################################
+
+
+grid:  983040,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_4: 8.685614 ms
+
+
+Effective Bandwidth: 3708.69 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  491520,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_8: 10.539998 ms
+
+
+Effective Bandwidth: 3056.19 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  327680,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_12: 11.088222 ms
+
+
+Effective Bandwidth: 2905.09 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  245760,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_16: 11.456078 ms
+
+
+Effective Bandwidth: 2811.80 GB/s
+------------------------------------------------------------------------------------------------------------
+grid:  196608,     1,     1
+block:  1024,     1,     1
+Warmup complete for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20
+Execution time for Kogge_Stone_scan_kernel_shfl_up_sync_version_coarsening_degree_20: 14.923524 ms
+
+
+Effective Bandwidth: 2158.49 GB/s
+------------------------------------------------------------------------------------------------------------
+Benchmark Finished at: 2026-01-14 13:30:19
