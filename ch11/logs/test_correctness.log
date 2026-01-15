@@ -1,4 +1,4 @@
-Verify started at: 2026-01-13 14:48:45
+Verify started at: 2026-01-15 14:51:18
 Computing CPU Naive Scan for comparison...
 Done.
 
@@ -15,6 +15,11 @@ Kogge_Stone_scan_kernel_double_buffering
 Kogge_Stone_scan_kernel_circular_buffer
 
 [[32mPASS[0m] Kogge_Stone_scan_kernel_circular_buffer (N=1024)
+-----------------------
+
+Kogge_Stone_scan_kernel_circular_buffer_v2
+
+[[32mPASS[0m] Kogge_Stone_scan_kernel_circular_buffer_v2 (N=1024)
 -----------------------
 
 Kogge_Stone_scan_kernel_shfl_up_sync_version
@@ -62,4 +67,4 @@ Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access
 [[32mPASS[0m] Brent_Kung_scan_kernel_optimized_padding_plus_vectorized_memory_access (N=2048)
 -----------------------
 
-Verify Finished at: 2026-01-13 14:48:46
+Verify Finished at: 2026-01-15 14:51:19

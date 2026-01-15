@@ -106,6 +106,16 @@ int main() {
     verify(h_cpu_output.data(), h_gpu_output.data(), n, "Kogge_Stone_scan_kernel_circular_buffer");
     printf("-----------------------\n\n");
 
+    // Test3.5
+    n=1024;
+    printf("Kogge_Stone_scan_kernel_circular_buffer_v2\n\n");
+    cudaMemset(d_output, 0, MAX_N*sizeof(float));
+    Kogge_Stone_scan_kernel_circular_buffer_v2<1024><<<1, 1024>>>(d_input, d_output, n);
+    cudaDeviceSynchronize();
+    cudaMemcpy(h_gpu_output.data(), d_output, n*sizeof(float),cudaMemcpyDeviceToHost);
+    verify(h_cpu_output.data(), h_gpu_output.data(), n, "Kogge_Stone_scan_kernel_circular_buffer_v2");
+    printf("-----------------------\n\n");
+
     // Test4
     n=1024;
     printf("Kogge_Stone_scan_kernel_shfl_up_sync_version\n\n");

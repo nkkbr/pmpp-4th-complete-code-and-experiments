@@ -90,6 +90,42 @@ __global__ void Kogge_Stone_scan_kernel_circular_buffer(float *X, float *Y, unsi
     }
 }
 
+
+// 这个版本的区别，仅仅在于，并不是取模，而是用了位运算
+// 这个版本有一个限制就是 2*SECTION_SIZE 必须是2的幂才行
+// 这个版本到底能不能真的加速呢？很难说。其实，取模的版本，可能编译器本身就已经优化成了位运算了
+// 有可能最终，还是指针交换胜出
+template <unsigned int SECTION_SIZE>
+__global__ void Kogge_Stone_scan_kernel_circular_buffer_v2(float *X, float *Y, unsigned int N){
+    const unsigned int MASK = (SECTION_SIZE * 2) - 1;
+
+    __shared__ float XY[SECTION_SIZE*2];
+    unsigned int i = blockIdx.x*blockDim.x + threadIdx.x;
+    if (i<N){
+        XY[threadIdx.x] = X[i];
+    } else {
+        XY[threadIdx.x] = 0.0f;
+    }
+
+    unsigned int tmp_index = 0;
+    for(unsigned int stride = 1; stride < blockDim.x; stride *= 2){
+        __syncthreads();
+        unsigned int current_read_base = (threadIdx.x + tmp_index) & MASK;
+        unsigned int current_write_base = (threadIdx.x + tmp_index + SECTION_SIZE) & MASK;
+        
+        if(threadIdx.x >= stride){
+            unsigned int neighbor_index = (threadIdx.x - stride + tmp_index) & MASK;
+            XY[current_write_base] = XY[current_read_base] + XY[neighbor_index];
+        } else {
+            XY[current_write_base] = XY[current_read_base];
+        }
+        tmp_index = (tmp_index + SECTION_SIZE) & MASK;
+    }
+    if(i < N){
+        Y[i] = XY[(threadIdx.x + tmp_index) & MASK];
+    }
+}
+
 // 使用 shuffle instructions within warps 
 // 仅仅用于性能比较用。测试本kernel，请在block_size=1024的设定下进行
 __global__ void Kogge_Stone_scan_kernel_shfl_up_sync_version(float *X, float *Y, unsigned int N){

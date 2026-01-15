@@ -158,6 +158,38 @@ int main(){
 
 
     //////////////////////////////////////////////////////////////////////////////////////
+    //     3.5 Kogge_Stone_scan_kernel_circular_buffer_v2
+    //////////////////////////////////////////////////////////////////////////////////////
+    items = 1024;
+    grid_size = (TOTAL_N+items-1)/items;
+
+    block.x = BLOCK_SIZE;
+    grid.x = grid_size;
+    printf("grid:  %5d, %5d, %5d\n", grid.x, grid.y, grid.z);
+    printf("block: %5d, %5d, %5d\n", block.x, block.y, block.z);
+
+    // 2.1 Warmup
+    for (int i=0;i<10;i++){
+        Kogge_Stone_scan_kernel_circular_buffer_v2<1024><<<grid, block>>>(d_input, d_output, TOTAL_N);
+    }
+    cudaDeviceSynchronize();
+    printf("Warmup complete for Kogge_Stone_scan_kernel_circular_buffer_v2\n");
+
+    // 2.2 Benchmarking
+    cudaEventRecord(start);
+    for (int i=0;i<BENCHMARK_REPEAT;i++){
+        Kogge_Stone_scan_kernel_circular_buffer_v2<1024><<<grid, block>>>(d_input, d_output, TOTAL_N);
+    }
+    cudaEventRecord(stop);
+    cudaEventSynchronize(stop);
+    cudaEventElapsedTime(&milliseconds, start, stop);
+    printf("Execution time for Kogge_Stone_scan_kernel_circular_buffer_v2: %f ms\n\n\n",milliseconds/BENCHMARK_REPEAT);
+    gb_per_sec = total_bytes / ((milliseconds / BENCHMARK_REPEAT) / 1000.0) / 1e9;
+    printf("Effective Bandwidth: %.2f GB/s\n", gb_per_sec);
+    printf("------------------------------------------------------------------------------------------------------------\n");
+    
+
+    //////////////////////////////////////////////////////////////////////////////////////
     //     4. Kogge_Stone_scan_kernel_shfl_up_sync_version
     //////////////////////////////////////////////////////////////////////////////////////
     items = 1024;
