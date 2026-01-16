@@ -1,0 +1,4999 @@
+Currently using CUDA device 0: NVIDIA H200
+Filling A...
+Filling B...
+B filled.
+A filled.
+A[0]-A[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+A[1ULL<<31]-A[(1ULL<<31)+4]:        -0.003715,    -0.003715,    -0.003714,    -0.003714,    -0.003714
+A[last-4]-A[last]:                3221.216553,  3221.216553,  3221.216553,  3221.216553,  3221.216553
+B[0]-B[4]:                       -1073.741577, -1073.741577, -1073.741577, -1073.741577, -1073.741577
+B[1ULL<<31]-B[(1ULL<<31)+4]:         0.009903,     0.009904,     0.009904,     0.009904,     0.009905
+B[last-4]-B[last]:                3221.223389,  3221.223389,  3221.223389,  3221.223389,  3221.223389
+C[0]-C[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+C[1ULL<<32]-C[(1ULL<<32)+4]:         0.003079,     0.003079,     0.003079,     0.003080,     0.003080
+C[last-4]-C[last]:                3221.223389,  3221.223389,  3221.223389,  3221.223389,  3221.223389
+C_gpu[0]-C_gpu[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+C_gpu[1ULL<<32]-C_gpu[(1ULL<<32)+4]:         0.003079,     0.003079,     0.003079,     0.003080,     0.003080
+C_gpu[last-4]-C_gpu[last]:                3221.223389,  3221.223389,  3221.223389,  3221.223389,  3221.223389
+EQUAL CHECK SUCCESS!
+
+Benchmark started at: 2026-01-16 00:42:01
+
+################################################################
+########## Starting Benchmark for tile_sizes:   512
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 7866.794922 ms
+
+
+RESULT, 512, 32, 132, 254201, 7866.794922
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3941.813965 ms
+
+
+RESULT, 512, 32, 264, 127101, 3941.813965
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1978.600098 ms
+
+
+RESULT, 512, 32, 528, 63551, 1978.600098
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1028.020874 ms
+
+
+RESULT, 512, 32, 1056, 31776, 1028.020874
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 557.184631 ms
+
+
+RESULT, 512, 32, 2112, 15888, 557.184631
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 378.041107 ms
+
+
+RESULT, 512, 32, 4224, 7944, 378.041107
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 367.320038 ms
+
+
+RESULT, 512, 32, 8448, 3972, 367.320038
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 362.056885 ms
+
+
+RESULT, 512, 32, 12672, 2648, 362.056885
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 357.561218 ms
+
+
+RESULT, 512, 32, 16896, 1986, 357.561218
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 351.286835 ms
+
+
+RESULT, 512, 32, 25344, 1324, 351.286835
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 347.382263 ms
+
+
+RESULT, 512, 32, 33792, 993, 347.382263
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 343.541321 ms
+
+
+RESULT, 512, 32, 50688, 662, 343.541321
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 342.025665 ms
+
+
+RESULT, 512, 32, 67584, 497, 342.025665
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 339.834076 ms
+
+
+RESULT, 512, 32, 101376, 331, 339.834076
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 339.474335 ms
+
+
+RESULT, 512, 32, 135168, 249, 339.474335
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 338.623169 ms
+
+
+RESULT, 512, 32, 202752, 166, 338.623169
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 338.481628 ms
+
+
+RESULT, 512, 32, 270336, 125, 338.481628
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 339.286133 ms
+
+
+RESULT, 512, 32, 540672, 63, 339.286133
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 342.277039 ms
+
+
+RESULT, 512, 32, 1081344, 32, 342.277039
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 350.337799 ms
+
+
+RESULT, 512, 32, 2162688, 16, 350.337799
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 361.395416 ms
+
+
+RESULT, 512, 32, 4325376, 8, 361.395416
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 6003.252930 ms
+
+
+RESULT, 512, 64, 132, 254201, 6003.252930
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3001.888184 ms
+
+
+RESULT, 512, 64, 264, 127101, 3001.888184
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1565.671265 ms
+
+
+RESULT, 512, 64, 528, 63551, 1565.671265
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 858.538147 ms
+
+
+RESULT, 512, 64, 1056, 31776, 858.538147
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 596.395813 ms
+
+
+RESULT, 512, 64, 2112, 15888, 596.395813
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 574.088989 ms
+
+
+RESULT, 512, 64, 4224, 7944, 574.088989
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 556.390198 ms
+
+
+RESULT, 512, 64, 8448, 3972, 556.390198
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 545.526794 ms
+
+
+RESULT, 512, 64, 12672, 2648, 545.526794
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 539.092163 ms
+
+
+RESULT, 512, 64, 16896, 1986, 539.092163
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 533.156616 ms
+
+
+RESULT, 512, 64, 25344, 1324, 533.156616
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 530.416504 ms
+
+
+RESULT, 512, 64, 33792, 993, 530.416504
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 527.279053 ms
+
+
+RESULT, 512, 64, 50688, 662, 527.279053
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 526.153137 ms
+
+
+RESULT, 512, 64, 67584, 497, 526.153137
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 524.589600 ms
+
+
+RESULT, 512, 64, 101376, 331, 524.589600
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 524.296143 ms
+
+
+RESULT, 512, 64, 135168, 249, 524.296143
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 523.579468 ms
+
+
+RESULT, 512, 64, 202752, 166, 523.579468
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 523.953613 ms
+
+
+RESULT, 512, 64, 270336, 125, 523.953613
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 525.416138 ms
+
+
+RESULT, 512, 64, 540672, 63, 525.416138
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 529.340637 ms
+
+
+RESULT, 512, 64, 1081344, 32, 529.340637
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 536.453674 ms
+
+
+RESULT, 512, 64, 2162688, 16, 536.453674
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 554.385071 ms
+
+
+RESULT, 512, 64, 4325376, 8, 554.385071
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 5098.001465 ms
+
+
+RESULT, 512, 128, 132, 254201, 5098.001465
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2665.883545 ms
+
+
+RESULT, 512, 128, 264, 127101, 2665.883545
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1463.577148 ms
+
+
+RESULT, 512, 128, 528, 63551, 1463.577148
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1005.615417 ms
+
+
+RESULT, 512, 128, 1056, 31776, 1005.615417
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 967.546570 ms
+
+
+RESULT, 512, 128, 2112, 15888, 967.546570
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 939.791504 ms
+
+
+RESULT, 512, 128, 4224, 7944, 939.791504
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 912.744080 ms
+
+
+RESULT, 512, 128, 8448, 3972, 912.744080
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 902.339478 ms
+
+
+RESULT, 512, 128, 12672, 2648, 902.339478
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 897.276794 ms
+
+
+RESULT, 512, 128, 16896, 1986, 897.276794
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 891.867493 ms
+
+
+RESULT, 512, 128, 25344, 1324, 891.867493
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 889.563721 ms
+
+
+RESULT, 512, 128, 33792, 993, 889.563721
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 886.934692 ms
+
+
+RESULT, 512, 128, 50688, 662, 886.934692
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 886.363342 ms
+
+
+RESULT, 512, 128, 67584, 497, 886.363342
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 884.835938 ms
+
+
+RESULT, 512, 128, 101376, 331, 884.835938
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 885.364990 ms
+
+
+RESULT, 512, 128, 135168, 249, 885.364990
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 885.717285 ms
+
+
+RESULT, 512, 128, 202752, 166, 885.717285
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 886.653137 ms
+
+
+RESULT, 512, 128, 270336, 125, 886.653137
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 890.723511 ms
+
+
+RESULT, 512, 128, 540672, 63, 890.723511
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 899.569275 ms
+
+
+RESULT, 512, 128, 1081344, 32, 899.569275
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 918.661926 ms
+
+
+RESULT, 512, 128, 2162688, 16, 918.661926
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 941.451965 ms
+
+
+RESULT, 512, 128, 4325376, 8, 941.451965
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 4756.431641 ms
+
+
+RESULT, 512, 256, 132, 254201, 4756.431641
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2657.315430 ms
+
+
+RESULT, 512, 256, 264, 127101, 2657.315430
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1798.166382 ms
+
+
+RESULT, 512, 256, 528, 63551, 1798.166382
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1731.765015 ms
+
+
+RESULT, 512, 256, 1056, 31776, 1731.765015
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1692.104004 ms
+
+
+RESULT, 512, 256, 2112, 15888, 1692.104004
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1652.062134 ms
+
+
+RESULT, 512, 256, 4224, 7944, 1652.062134
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1626.513306 ms
+
+
+RESULT, 512, 256, 8448, 3972, 1626.513306
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1618.087158 ms
+
+
+RESULT, 512, 256, 12672, 2648, 1618.087158
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1614.503174 ms
+
+
+RESULT, 512, 256, 16896, 1986, 1614.503174
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1610.083252 ms
+
+
+RESULT, 512, 256, 25344, 1324, 1610.083252
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1608.467651 ms
+
+
+RESULT, 512, 256, 33792, 993, 1608.467651
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1606.660889 ms
+
+
+RESULT, 512, 256, 50688, 662, 1606.660889
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1606.606445 ms
+
+
+RESULT, 512, 256, 67584, 497, 1606.606445
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1605.688110 ms
+
+
+RESULT, 512, 256, 101376, 331, 1605.688110
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1607.434692 ms
+
+
+RESULT, 512, 256, 135168, 249, 1607.434692
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1608.331543 ms
+
+
+RESULT, 512, 256, 202752, 166, 1608.331543
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1610.709351 ms
+
+
+RESULT, 512, 256, 270336, 125, 1610.709351
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1618.801147 ms
+
+
+RESULT, 512, 256, 540672, 63, 1618.801147
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1635.171509 ms
+
+
+RESULT, 512, 256, 1081344, 32, 1635.171509
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1666.070312 ms
+
+
+RESULT, 512, 256, 2162688, 16, 1666.070312
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1713.912231 ms
+
+
+RESULT, 512, 256, 4325376, 8, 1713.912231
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 5026.962891 ms
+
+
+RESULT, 512, 512, 132, 254201, 5026.962891
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3349.779053 ms
+
+
+RESULT, 512, 512, 264, 127101, 3349.779053
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3238.641602 ms
+
+
+RESULT, 512, 512, 528, 63551, 3238.641602
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3192.400635 ms
+
+
+RESULT, 512, 512, 1056, 31776, 3192.400635
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3147.085938 ms
+
+
+RESULT, 512, 512, 2112, 15888, 3147.085938
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3114.797852 ms
+
+
+RESULT, 512, 512, 4224, 7944, 3114.797852
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3097.607178 ms
+
+
+RESULT, 512, 512, 8448, 3972, 3097.607178
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3092.156982 ms
+
+
+RESULT, 512, 512, 12672, 2648, 3092.156982
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3091.093506 ms
+
+
+RESULT, 512, 512, 16896, 1986, 3091.093506
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3087.908447 ms
+
+
+RESULT, 512, 512, 25344, 1324, 3087.908447
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3087.484619 ms
+
+
+RESULT, 512, 512, 33792, 993, 3087.484619
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3086.636230 ms
+
+
+RESULT, 512, 512, 50688, 662, 3086.636230
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3088.055664 ms
+
+
+RESULT, 512, 512, 67584, 497, 3088.055664
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3087.808350 ms
+
+
+RESULT, 512, 512, 101376, 331, 3087.808350
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3092.011475 ms
+
+
+RESULT, 512, 512, 135168, 249, 3092.011475
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3094.929443 ms
+
+
+RESULT, 512, 512, 202752, 166, 3094.929443
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3099.695557 ms
+
+
+RESULT, 512, 512, 270336, 125, 3099.695557
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3117.240234 ms
+
+
+RESULT, 512, 512, 540672, 63, 3117.240234
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3147.768066 ms
+
+
+RESULT, 512, 512, 1081344, 32, 3147.768066
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3209.389893 ms
+
+
+RESULT, 512, 512, 2162688, 16, 3209.389893
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3305.514160 ms
+
+
+RESULT, 512, 512, 4325376, 8, 3305.514160
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  1024
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 5911.333008 ms
+
+
+RESULT, 1024, 32, 132, 127101, 5911.333008
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2970.304443 ms
+
+
+RESULT, 1024, 32, 264, 63551, 2970.304443
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1491.363159 ms
+
+
+RESULT, 1024, 32, 528, 31776, 1491.363159
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 775.144165 ms
+
+
+RESULT, 1024, 32, 1056, 15888, 775.144165
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 423.234070 ms
+
+
+RESULT, 1024, 32, 2112, 7944, 423.234070
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 470.881836 ms
+
+
+RESULT, 1024, 32, 4224, 3972, 470.881836
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 361.830597 ms
+
+
+RESULT, 1024, 32, 8448, 1986, 361.830597
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 336.047058 ms
+
+
+RESULT, 1024, 32, 12672, 1324, 336.047058
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 347.664948 ms
+
+
+RESULT, 1024, 32, 16896, 993, 347.664948
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 334.417389 ms
+
+
+RESULT, 1024, 32, 25344, 662, 334.417389
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 338.876526 ms
+
+
+RESULT, 1024, 32, 33792, 497, 338.876526
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 330.655701 ms
+
+
+RESULT, 1024, 32, 50688, 331, 330.655701
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 328.913879 ms
+
+
+RESULT, 1024, 32, 67584, 249, 328.913879
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 326.007935 ms
+
+
+RESULT, 1024, 32, 101376, 166, 326.007935
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 325.467072 ms
+
+
+RESULT, 1024, 32, 135168, 125, 325.467072
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 323.837036 ms
+
+
+RESULT, 1024, 32, 202752, 83, 323.837036
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 324.454926 ms
+
+
+RESULT, 1024, 32, 270336, 63, 324.454926
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 326.764282 ms
+
+
+RESULT, 1024, 32, 540672, 32, 326.764282
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 325.040222 ms
+
+
+RESULT, 1024, 32, 1081344, 16, 325.040222
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 330.587036 ms
+
+
+RESULT, 1024, 32, 2162688, 8, 330.587036
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 344.497925 ms
+
+
+RESULT, 1024, 32, 4325376, 4, 344.497925
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 4104.495117 ms
+
+
+RESULT, 1024, 64, 132, 127101, 4104.495117
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2057.445801 ms
+
+
+RESULT, 1024, 64, 264, 63551, 2057.445801
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1072.394653 ms
+
+
+RESULT, 1024, 64, 528, 31776, 1072.394653
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 586.615112 ms
+
+
+RESULT, 1024, 64, 1056, 15888, 586.615112
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 398.075806 ms
+
+
+RESULT, 1024, 64, 2112, 7944, 398.075806
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 387.196869 ms
+
+
+RESULT, 1024, 64, 4224, 3972, 387.196869
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 376.747070 ms
+
+
+RESULT, 1024, 64, 8448, 1986, 376.747070
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 370.258118 ms
+
+
+RESULT, 1024, 64, 12672, 1324, 370.258118
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 366.108948 ms
+
+
+RESULT, 1024, 64, 16896, 993, 366.108948
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 361.932587 ms
+
+
+RESULT, 1024, 64, 25344, 662, 361.932587
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 360.267700 ms
+
+
+RESULT, 1024, 64, 33792, 497, 360.267700
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 357.992279 ms
+
+
+RESULT, 1024, 64, 50688, 331, 357.992279
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 357.568176 ms
+
+
+RESULT, 1024, 64, 67584, 249, 357.568176
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 356.458740 ms
+
+
+RESULT, 1024, 64, 101376, 166, 356.458740
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 356.408905 ms
+
+
+RESULT, 1024, 64, 135168, 125, 356.408905
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 356.245422 ms
+
+
+RESULT, 1024, 64, 202752, 83, 356.245422
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 357.031708 ms
+
+
+RESULT, 1024, 64, 270336, 63, 357.031708
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 359.606079 ms
+
+
+RESULT, 1024, 64, 540672, 32, 359.606079
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 365.941864 ms
+
+
+RESULT, 1024, 64, 1081344, 16, 365.941864
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 377.740601 ms
+
+
+RESULT, 1024, 64, 2162688, 8, 377.740601
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 400.464020 ms
+
+
+RESULT, 1024, 64, 4325376, 4, 400.464020
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3213.844482 ms
+
+
+RESULT, 1024, 128, 132, 127101, 3213.844482
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1681.303955 ms
+
+
+RESULT, 1024, 128, 264, 63551, 1681.303955
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 922.583618 ms
+
+
+RESULT, 1024, 128, 528, 31776, 922.583618
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 627.758728 ms
+
+
+RESULT, 1024, 128, 1056, 15888, 627.758728
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 609.888428 ms
+
+
+RESULT, 1024, 128, 2112, 7944, 609.888428
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 592.283569 ms
+
+
+RESULT, 1024, 128, 4224, 3972, 592.283569
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 576.094666 ms
+
+
+RESULT, 1024, 128, 8448, 1986, 576.094666
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 569.398071 ms
+
+
+RESULT, 1024, 128, 12672, 1324, 569.398071
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 566.302307 ms
+
+
+RESULT, 1024, 128, 16896, 993, 566.302307
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 562.862488 ms
+
+
+RESULT, 1024, 128, 25344, 662, 562.862488
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 561.815063 ms
+
+
+RESULT, 1024, 128, 33792, 497, 561.815063
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 559.977722 ms
+
+
+RESULT, 1024, 128, 50688, 331, 559.977722
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 560.092407 ms
+
+
+RESULT, 1024, 128, 67584, 249, 560.092407
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 559.740662 ms
+
+
+RESULT, 1024, 128, 101376, 166, 559.740662
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 560.033997 ms
+
+
+RESULT, 1024, 128, 135168, 125, 560.033997
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 560.267822 ms
+
+
+RESULT, 1024, 128, 202752, 83, 560.267822
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 562.217407 ms
+
+
+RESULT, 1024, 128, 270336, 63, 562.217407
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 567.305176 ms
+
+
+RESULT, 1024, 128, 540672, 32, 567.305176
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 580.817200 ms
+
+
+RESULT, 1024, 128, 1081344, 16, 580.817200
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 594.852661 ms
+
+
+RESULT, 1024, 128, 2162688, 8, 594.852661
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 625.547058 ms
+
+
+RESULT, 1024, 128, 4325376, 4, 625.547058
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2891.580322 ms
+
+
+RESULT, 1024, 256, 132, 127101, 2891.580322
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1604.515991 ms
+
+
+RESULT, 1024, 256, 264, 63551, 1604.515991
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1075.410278 ms
+
+
+RESULT, 1024, 256, 528, 31776, 1075.410278
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1044.324097 ms
+
+
+RESULT, 1024, 256, 1056, 15888, 1044.324097
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1021.160156 ms
+
+
+RESULT, 1024, 256, 2112, 7944, 1021.160156
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 996.613647 ms
+
+
+RESULT, 1024, 256, 4224, 3972, 996.613647
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 981.655396 ms
+
+
+RESULT, 1024, 256, 8448, 1986, 981.655396
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 976.643738 ms
+
+
+RESULT, 1024, 256, 12672, 1324, 976.643738
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 974.444580 ms
+
+
+RESULT, 1024, 256, 16896, 993, 974.444580
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 971.992126 ms
+
+
+RESULT, 1024, 256, 25344, 662, 971.992126
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 971.715637 ms
+
+
+RESULT, 1024, 256, 33792, 497, 971.715637
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 970.292664 ms
+
+
+RESULT, 1024, 256, 50688, 331, 970.292664
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 971.546143 ms
+
+
+RESULT, 1024, 256, 67584, 249, 971.546143
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 971.567993 ms
+
+
+RESULT, 1024, 256, 101376, 166, 971.567993
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 972.872131 ms
+
+
+RESULT, 1024, 256, 135168, 125, 972.872131
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 973.484314 ms
+
+
+RESULT, 1024, 256, 202752, 83, 973.484314
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 977.197021 ms
+
+
+RESULT, 1024, 256, 270336, 63, 977.197021
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 986.294983 ms
+
+
+RESULT, 1024, 256, 540672, 32, 986.294983
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1006.884033 ms
+
+
+RESULT, 1024, 256, 1081344, 16, 1006.884033
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1032.977539 ms
+
+
+RESULT, 1024, 256, 2162688, 8, 1032.977539
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1080.742554 ms
+
+
+RESULT, 1024, 256, 4325376, 4, 1080.742554
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2869.567139 ms
+
+
+RESULT, 1024, 512, 132, 127101, 2869.567139
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1923.214233 ms
+
+
+RESULT, 1024, 512, 264, 63551, 1923.214233
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1871.537964 ms
+
+
+RESULT, 1024, 512, 528, 31776, 1871.537964
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1843.107300 ms
+
+
+RESULT, 1024, 512, 1056, 15888, 1843.107300
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1815.519897 ms
+
+
+RESULT, 1024, 512, 2112, 7944, 1815.519897
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1797.477539 ms
+
+
+RESULT, 1024, 512, 4224, 3972, 1797.477539
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1788.645020 ms
+
+
+RESULT, 1024, 512, 8448, 1986, 1788.645020
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1785.600464 ms
+
+
+RESULT, 1024, 512, 12672, 1324, 1785.600464
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1784.818237 ms
+
+
+RESULT, 1024, 512, 16896, 993, 1784.818237
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1783.346069 ms
+
+
+RESULT, 1024, 512, 25344, 662, 1783.346069
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1784.238403 ms
+
+
+RESULT, 1024, 512, 33792, 497, 1784.238403
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1783.348267 ms
+
+
+RESULT, 1024, 512, 50688, 331, 1783.348267
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1786.141235 ms
+
+
+RESULT, 1024, 512, 67584, 249, 1786.141235
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1787.814697 ms
+
+
+RESULT, 1024, 512, 101376, 166, 1787.814697
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1790.563965 ms
+
+
+RESULT, 1024, 512, 135168, 125, 1790.563965
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1791.797363 ms
+
+
+RESULT, 1024, 512, 202752, 83, 1791.797363
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1799.359985 ms
+
+
+RESULT, 1024, 512, 270336, 63, 1799.359985
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1817.446777 ms
+
+
+RESULT, 1024, 512, 540672, 32, 1817.446777
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1855.019409 ms
+
+
+RESULT, 1024, 512, 1081344, 16, 1855.019409
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1905.328613 ms
+
+
+RESULT, 1024, 512, 2162688, 8, 1905.328613
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2008.176880 ms
+
+
+RESULT, 1024, 512, 4325376, 4, 2008.176880
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3515.660645 ms
+
+
+RESULT, 1024, 1024, 132, 127101, 3515.660645
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3461.607910 ms
+
+
+RESULT, 1024, 1024, 264, 63551, 3461.607910
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3455.569092 ms
+
+
+RESULT, 1024, 1024, 528, 31776, 3455.569092
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3454.743164 ms
+
+
+RESULT, 1024, 1024, 1056, 15888, 3454.743164
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3451.878174 ms
+
+
+RESULT, 1024, 1024, 2112, 7944, 3451.878174
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3450.589111 ms
+
+
+RESULT, 1024, 1024, 4224, 3972, 3450.589111
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3451.715332 ms
+
+
+RESULT, 1024, 1024, 8448, 1986, 3451.715332
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3451.649902 ms
+
+
+RESULT, 1024, 1024, 12672, 1324, 3451.649902
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3453.506836 ms
+
+
+RESULT, 1024, 1024, 16896, 993, 3453.506836
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3453.983643 ms
+
+
+RESULT, 1024, 1024, 25344, 662, 3453.983643
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3457.434570 ms
+
+
+RESULT, 1024, 1024, 33792, 497, 3457.434570
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3457.484131 ms
+
+
+RESULT, 1024, 1024, 50688, 331, 3457.484131
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3464.666016 ms
+
+
+RESULT, 1024, 1024, 67584, 249, 3464.666016
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3469.651855 ms
+
+
+RESULT, 1024, 1024, 101376, 166, 3469.651855
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3476.627441 ms
+
+
+RESULT, 1024, 1024, 135168, 125, 3476.627441
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3482.356445 ms
+
+
+RESULT, 1024, 1024, 202752, 83, 3482.356445
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3500.027832 ms
+
+
+RESULT, 1024, 1024, 270336, 63, 3500.027832
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3545.512695 ms
+
+
+RESULT, 1024, 1024, 540672, 32, 3545.512695
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3638.323975 ms
+
+
+RESULT, 1024, 1024, 1081344, 16, 3638.323975
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3770.966309 ms
+
+
+RESULT, 1024, 1024, 2162688, 8, 3770.966309
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 4035.015869 ms
+
+
+RESULT, 1024, 1024, 4325376, 4, 4035.015869
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  2048
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 4837.846191 ms
+
+
+RESULT, 2048, 32, 132, 63551, 4837.846191
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2426.183350 ms
+
+
+RESULT, 2048, 32, 264, 31776, 2426.183350
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1220.102295 ms
+
+
+RESULT, 2048, 32, 528, 15888, 1220.102295
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 632.831665 ms
+
+
+RESULT, 2048, 32, 1056, 7944, 632.831665
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 629.691345 ms
+
+
+RESULT, 2048, 32, 2112, 3972, 629.691345
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 487.230042 ms
+
+
+RESULT, 2048, 32, 4224, 1986, 487.230042
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 420.477631 ms
+
+
+RESULT, 2048, 32, 8448, 993, 420.477631
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 434.920197 ms
+
+
+RESULT, 2048, 32, 12672, 662, 434.920197
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 415.748413 ms
+
+
+RESULT, 2048, 32, 16896, 497, 415.748413
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 414.108795 ms
+
+
+RESULT, 2048, 32, 25344, 331, 414.108795
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 415.542175 ms
+
+
+RESULT, 2048, 32, 33792, 249, 415.542175
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 413.645660 ms
+
+
+RESULT, 2048, 32, 50688, 166, 413.645660
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 414.400574 ms
+
+
+RESULT, 2048, 32, 67584, 125, 414.400574
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 412.546844 ms
+
+
+RESULT, 2048, 32, 101376, 83, 412.546844
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 413.540039 ms
+
+
+RESULT, 2048, 32, 135168, 63, 413.540039
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 415.285126 ms
+
+
+RESULT, 2048, 32, 202752, 42, 415.285126
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 416.596436 ms
+
+
+RESULT, 2048, 32, 270336, 32, 416.596436
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 423.063721 ms
+
+
+RESULT, 2048, 32, 540672, 16, 423.063721
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 435.427856 ms
+
+
+RESULT, 2048, 32, 1081344, 8, 435.427856
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 462.301025 ms
+
+
+RESULT, 2048, 32, 2162688, 4, 462.301025
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 495.878876 ms
+
+
+RESULT, 2048, 32, 4325376, 2, 495.878876
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 3055.468750 ms
+
+
+RESULT, 2048, 64, 132, 63551, 3055.468750
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1532.220337 ms
+
+
+RESULT, 2048, 64, 264, 31776, 1532.220337
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 796.339355 ms
+
+
+RESULT, 2048, 64, 528, 15888, 796.339355
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 437.241577 ms
+
+
+RESULT, 2048, 64, 1056, 7944, 437.241577
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 486.561340 ms
+
+
+RESULT, 2048, 64, 2112, 3972, 486.561340
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 375.350006 ms
+
+
+RESULT, 2048, 64, 4224, 1986, 375.350006
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 334.270203 ms
+
+
+RESULT, 2048, 64, 8448, 993, 334.270203
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 340.323761 ms
+
+
+RESULT, 2048, 64, 12672, 662, 340.323761
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 332.470612 ms
+
+
+RESULT, 2048, 64, 16896, 497, 332.470612
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 328.111572 ms
+
+
+RESULT, 2048, 64, 25344, 331, 328.111572
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 328.123779 ms
+
+
+RESULT, 2048, 64, 33792, 249, 328.123779
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 325.301422 ms
+
+
+RESULT, 2048, 64, 50688, 166, 325.301422
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 325.378052 ms
+
+
+RESULT, 2048, 64, 67584, 125, 325.378052
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 323.510071 ms
+
+
+RESULT, 2048, 64, 101376, 83, 323.510071
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 325.482819 ms
+
+
+RESULT, 2048, 64, 135168, 63, 325.482819
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 322.360901 ms
+
+
+RESULT, 2048, 64, 202752, 42, 322.360901
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 326.626770 ms
+
+
+RESULT, 2048, 64, 270336, 32, 326.626770
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 326.342377 ms
+
+
+RESULT, 2048, 64, 540672, 16, 326.342377
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 332.179077 ms
+
+
+RESULT, 2048, 64, 1081344, 8, 332.179077
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 344.283356 ms
+
+
+RESULT, 2048, 64, 2162688, 4, 344.283356
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 369.007141 ms
+
+
+RESULT, 2048, 64, 4325376, 2, 369.007141
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2169.331299 ms
+
+
+RESULT, 2048, 128, 132, 63551, 2169.331299
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1129.877686 ms
+
+
+RESULT, 2048, 128, 264, 31776, 1129.877686
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 619.208069 ms
+
+
+RESULT, 2048, 128, 528, 15888, 619.208069
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 416.121216 ms
+
+
+RESULT, 2048, 128, 1056, 7944, 416.121216
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 405.669769 ms
+
+
+RESULT, 2048, 128, 2112, 3972, 405.669769
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 394.883972 ms
+
+
+RESULT, 2048, 128, 4224, 1986, 394.883972
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 385.150208 ms
+
+
+RESULT, 2048, 128, 8448, 993, 385.150208
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 380.767975 ms
+
+
+RESULT, 2048, 128, 12672, 662, 380.767975
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 379.055237 ms
+
+
+RESULT, 2048, 128, 16896, 497, 379.055237
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 376.492462 ms
+
+
+RESULT, 2048, 128, 25344, 331, 376.492462
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 376.180573 ms
+
+
+RESULT, 2048, 128, 33792, 249, 376.180573
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 375.231812 ms
+
+
+RESULT, 2048, 128, 50688, 166, 375.231812
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 375.162109 ms
+
+
+RESULT, 2048, 128, 67584, 125, 375.162109
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 374.693970 ms
+
+
+RESULT, 2048, 128, 101376, 83, 374.693970
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 376.013092 ms
+
+
+RESULT, 2048, 128, 135168, 63, 376.013092
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 378.486176 ms
+
+
+RESULT, 2048, 128, 202752, 42, 378.486176
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 378.966766 ms
+
+
+RESULT, 2048, 128, 270336, 32, 378.966766
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 387.983429 ms
+
+
+RESULT, 2048, 128, 540672, 16, 387.983429
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 396.087860 ms
+
+
+RESULT, 2048, 128, 1081344, 8, 396.087860
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 416.063904 ms
+
+
+RESULT, 2048, 128, 2162688, 4, 416.063904
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 446.016357 ms
+
+
+RESULT, 2048, 128, 4325376, 2, 446.016357
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1794.817383 ms
+
+
+RESULT, 2048, 256, 132, 63551, 1794.817383
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 991.343262 ms
+
+
+RESULT, 2048, 256, 264, 31776, 991.343262
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 659.245850 ms
+
+
+RESULT, 2048, 256, 528, 15888, 659.245850
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 643.648071 ms
+
+
+RESULT, 2048, 256, 1056, 7944, 643.648071
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 629.868774 ms
+
+
+RESULT, 2048, 256, 2112, 3972, 629.868774
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 614.956299 ms
+
+
+RESULT, 2048, 256, 4224, 1986, 614.956299
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 605.779541 ms
+
+
+RESULT, 2048, 256, 8448, 993, 605.779541
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 602.723877 ms
+
+
+RESULT, 2048, 256, 12672, 662, 602.723877
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 602.011230 ms
+
+
+RESULT, 2048, 256, 16896, 497, 602.011230
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 600.107483 ms
+
+
+RESULT, 2048, 256, 25344, 331, 600.107483
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 600.623779 ms
+
+
+RESULT, 2048, 256, 33792, 249, 600.623779
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 600.203918 ms
+
+
+RESULT, 2048, 256, 50688, 166, 600.203918
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 600.969971 ms
+
+
+RESULT, 2048, 256, 67584, 125, 600.969971
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 600.730286 ms
+
+
+RESULT, 2048, 256, 101376, 83, 600.730286
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 603.000916 ms
+
+
+RESULT, 2048, 256, 135168, 63, 603.000916
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 606.419983 ms
+
+
+RESULT, 2048, 256, 202752, 42, 606.419983
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 608.199463 ms
+
+
+RESULT, 2048, 256, 270336, 32, 608.199463
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 620.800964 ms
+
+
+RESULT, 2048, 256, 540672, 16, 620.800964
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 636.896667 ms
+
+
+RESULT, 2048, 256, 1081344, 8, 636.896667
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 658.958435 ms
+
+
+RESULT, 2048, 256, 2162688, 4, 658.958435
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 718.275940 ms
+
+
+RESULT, 2048, 256, 4325376, 2, 718.275940
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1712.114380 ms
+
+
+RESULT, 2048, 512, 132, 63551, 1712.114380
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1137.156372 ms
+
+
+RESULT, 2048, 512, 264, 31776, 1137.156372
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1103.701904 ms
+
+
+RESULT, 2048, 512, 528, 15888, 1103.701904
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1087.822388 ms
+
+
+RESULT, 2048, 512, 1056, 7944, 1087.822388
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1072.396362 ms
+
+
+RESULT, 2048, 512, 2112, 3972, 1072.396362
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1061.703003 ms
+
+
+RESULT, 2048, 512, 4224, 1986, 1061.703003
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1056.443970 ms
+
+
+RESULT, 2048, 512, 8448, 993, 1056.443970
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1054.951660 ms
+
+
+RESULT, 2048, 512, 12672, 662, 1054.951660
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1055.463135 ms
+
+
+RESULT, 2048, 512, 16896, 497, 1055.463135
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1054.149292 ms
+
+
+RESULT, 2048, 512, 25344, 331, 1054.149292
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1055.761719 ms
+
+
+RESULT, 2048, 512, 33792, 249, 1055.761719
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1056.297852 ms
+
+
+RESULT, 2048, 512, 50688, 166, 1056.297852
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1058.219727 ms
+
+
+RESULT, 2048, 512, 67584, 125, 1058.219727
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1058.270142 ms
+
+
+RESULT, 2048, 512, 101376, 83, 1058.270142
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1062.919800 ms
+
+
+RESULT, 2048, 512, 135168, 63, 1062.919800
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1069.363525 ms
+
+
+RESULT, 2048, 512, 202752, 42, 1069.363525
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1072.925171 ms
+
+
+RESULT, 2048, 512, 270336, 32, 1072.925171
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1096.124512 ms
+
+
+RESULT, 2048, 512, 540672, 16, 1096.124512
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1121.594238 ms
+
+
+RESULT, 2048, 512, 1081344, 8, 1121.594238
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1173.474121 ms
+
+
+RESULT, 2048, 512, 2162688, 4, 1173.474121
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1266.467651 ms
+
+
+RESULT, 2048, 512, 4325376, 2, 1266.467651
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1984.911743 ms
+
+
+RESULT, 2048, 1024, 132, 63551, 1984.911743
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1961.366821 ms
+
+
+RESULT, 2048, 1024, 264, 31776, 1961.366821
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1956.618652 ms
+
+
+RESULT, 2048, 1024, 528, 15888, 1956.618652
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1955.881714 ms
+
+
+RESULT, 2048, 1024, 1056, 7944, 1955.881714
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1953.842651 ms
+
+
+RESULT, 2048, 1024, 2112, 3972, 1953.842651
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1953.621216 ms
+
+
+RESULT, 2048, 1024, 4224, 1986, 1953.621216
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1955.202148 ms
+
+
+RESULT, 2048, 1024, 8448, 993, 1955.202148
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1955.203491 ms
+
+
+RESULT, 2048, 1024, 12672, 662, 1955.203491
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1957.649048 ms
+
+
+RESULT, 2048, 1024, 16896, 497, 1957.649048
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1957.458862 ms
+
+
+RESULT, 2048, 1024, 25344, 331, 1957.458862
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1961.728760 ms
+
+
+RESULT, 2048, 1024, 33792, 249, 1961.728760
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1964.241821 ms
+
+
+RESULT, 2048, 1024, 50688, 166, 1964.241821
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1968.731934 ms
+
+
+RESULT, 2048, 1024, 67584, 125, 1968.731934
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1970.580444 ms
+
+
+RESULT, 2048, 1024, 101376, 83, 1970.580444
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1981.115967 ms
+
+
+RESULT, 2048, 1024, 135168, 63, 1981.115967
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1997.284546 ms
+
+
+RESULT, 2048, 1024, 202752, 42, 1997.284546
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2004.983154 ms
+
+
+RESULT, 2048, 1024, 270336, 32, 2004.983154
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2057.258545 ms
+
+
+RESULT, 2048, 1024, 540672, 16, 2057.258545
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2122.938232 ms
+
+
+RESULT, 2048, 1024, 1081344, 8, 2122.938232
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2249.827393 ms
+
+
+RESULT, 2048, 1024, 2162688, 4, 2249.827393
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2508.588623 ms
+
+
+RESULT, 2048, 1024, 4325376, 2, 2508.588623
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  4096
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 4235.512695 ms
+
+
+RESULT, 4096, 32, 132, 31776, 4235.512695
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2125.401367 ms
+
+
+RESULT, 4096, 32, 264, 15888, 2125.401367
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1070.860352 ms
+
+
+RESULT, 4096, 32, 528, 7944, 1070.860352
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1048.411621 ms
+
+
+RESULT, 4096, 32, 1056, 3972, 1048.411621
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 804.149475 ms
+
+
+RESULT, 4096, 32, 2112, 1986, 804.149475
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 774.564636 ms
+
+
+RESULT, 4096, 32, 4224, 993, 774.564636
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 720.430786 ms
+
+
+RESULT, 4096, 32, 8448, 497, 720.430786
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 713.821228 ms
+
+
+RESULT, 4096, 32, 12672, 331, 713.821228
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 717.176636 ms
+
+
+RESULT, 4096, 32, 16896, 249, 717.176636
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 713.874695 ms
+
+
+RESULT, 4096, 32, 25344, 166, 713.874695
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 709.357239 ms
+
+
+RESULT, 4096, 32, 33792, 125, 709.357239
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 708.375916 ms
+
+
+RESULT, 4096, 32, 50688, 83, 708.375916
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 710.330078 ms
+
+
+RESULT, 4096, 32, 67584, 63, 710.330078
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 714.035522 ms
+
+
+RESULT, 4096, 32, 101376, 42, 714.035522
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 715.522644 ms
+
+
+RESULT, 4096, 32, 135168, 32, 715.522644
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 721.903076 ms
+
+
+RESULT, 4096, 32, 202752, 21, 721.903076
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 733.566345 ms
+
+
+RESULT, 4096, 32, 270336, 16, 733.566345
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 756.948059 ms
+
+
+RESULT, 4096, 32, 540672, 8, 756.948059
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 803.604248 ms
+
+
+RESULT, 4096, 32, 1081344, 4, 803.604248
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 846.213135 ms
+
+
+RESULT, 4096, 32, 2162688, 2, 846.213135
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 831.536926 ms
+
+
+RESULT, 4096, 32, 4325376, 1, 831.536926
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 2469.355957 ms
+
+
+RESULT, 4096, 64, 132, 31776, 2469.355957
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1240.567871 ms
+
+
+RESULT, 4096, 64, 264, 15888, 1240.567871
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 643.137878 ms
+
+
+RESULT, 4096, 64, 528, 7944, 643.137878
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 646.037598 ms
+
+
+RESULT, 4096, 64, 1056, 3972, 646.037598
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 499.946655 ms
+
+
+RESULT, 4096, 64, 2112, 1986, 499.946655
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 492.494141 ms
+
+
+RESULT, 4096, 64, 4224, 993, 492.494141
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 457.533875 ms
+
+
+RESULT, 4096, 64, 8448, 497, 457.533875
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 447.957855 ms
+
+
+RESULT, 4096, 64, 12672, 331, 447.957855
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 456.582611 ms
+
+
+RESULT, 4096, 64, 16896, 249, 456.582611
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 447.914429 ms
+
+
+RESULT, 4096, 64, 25344, 166, 447.914429
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 450.944702 ms
+
+
+RESULT, 4096, 64, 33792, 125, 450.944702
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 447.419647 ms
+
+
+RESULT, 4096, 64, 50688, 83, 447.419647
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 451.518036 ms
+
+
+RESULT, 4096, 64, 67584, 63, 451.518036
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 452.609070 ms
+
+
+RESULT, 4096, 64, 101376, 42, 452.609070
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 454.759186 ms
+
+
+RESULT, 4096, 64, 135168, 32, 454.759186
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 455.166534 ms
+
+
+RESULT, 4096, 64, 202752, 21, 455.166534
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 463.383789 ms
+
+
+RESULT, 4096, 64, 270336, 16, 463.383789
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 475.915192 ms
+
+
+RESULT, 4096, 64, 540672, 8, 475.915192
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 504.764801 ms
+
+
+RESULT, 4096, 64, 1081344, 4, 504.764801
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 535.142761 ms
+
+
+RESULT, 4096, 64, 2162688, 2, 535.142761
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 557.941162 ms
+
+
+RESULT, 4096, 64, 4325376, 1, 557.941162
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1589.274536 ms
+
+
+RESULT, 4096, 128, 132, 31776, 1589.274536
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 825.933044 ms
+
+
+RESULT, 4096, 128, 264, 15888, 825.933044
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 454.770599 ms
+
+
+RESULT, 4096, 128, 528, 7944, 454.770599
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 467.634308 ms
+
+
+RESULT, 4096, 128, 1056, 3972, 467.634308
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 371.598938 ms
+
+
+RESULT, 4096, 128, 2112, 1986, 371.598938
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 367.041290 ms
+
+
+RESULT, 4096, 128, 4224, 993, 367.041290
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 349.460938 ms
+
+
+RESULT, 4096, 128, 8448, 497, 349.460938
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 346.642120 ms
+
+
+RESULT, 4096, 128, 12672, 331, 346.642120
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 347.748718 ms
+
+
+RESULT, 4096, 128, 16896, 249, 347.748718
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 343.509186 ms
+
+
+RESULT, 4096, 128, 25344, 166, 343.509186
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 344.162262 ms
+
+
+RESULT, 4096, 128, 33792, 125, 344.162262
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 342.293243 ms
+
+
+RESULT, 4096, 128, 50688, 83, 342.293243
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 343.803467 ms
+
+
+RESULT, 4096, 128, 67584, 63, 343.803467
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 343.888702 ms
+
+
+RESULT, 4096, 128, 101376, 42, 343.888702
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 346.800415 ms
+
+
+RESULT, 4096, 128, 135168, 32, 346.800415
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 345.095734 ms
+
+
+RESULT, 4096, 128, 202752, 21, 345.095734
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 350.488983 ms
+
+
+RESULT, 4096, 128, 270336, 16, 350.488983
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 357.842529 ms
+
+
+RESULT, 4096, 128, 540672, 8, 357.842529
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 373.584930 ms
+
+
+RESULT, 4096, 128, 1081344, 4, 373.584930
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 395.267700 ms
+
+
+RESULT, 4096, 128, 2162688, 2, 395.267700
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 427.488251 ms
+
+
+RESULT, 4096, 128, 4325376, 1, 427.488251
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1187.842529 ms
+
+
+RESULT, 4096, 256, 132, 31776, 1187.842529
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 653.541382 ms
+
+
+RESULT, 4096, 256, 264, 15888, 653.541382
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 432.064606 ms
+
+
+RESULT, 4096, 256, 528, 7944, 432.064606
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 421.638397 ms
+
+
+RESULT, 4096, 256, 1056, 3972, 421.638397
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 413.712799 ms
+
+
+RESULT, 4096, 256, 2112, 1986, 413.712799
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 404.602020 ms
+
+
+RESULT, 4096, 256, 4224, 993, 404.602020
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 399.016022 ms
+
+
+RESULT, 4096, 256, 8448, 497, 399.016022
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 396.463287 ms
+
+
+RESULT, 4096, 256, 12672, 331, 396.463287
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 396.517731 ms
+
+
+RESULT, 4096, 256, 16896, 249, 396.517731
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 395.437256 ms
+
+
+RESULT, 4096, 256, 25344, 166, 395.437256
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 396.117920 ms
+
+
+RESULT, 4096, 256, 33792, 125, 396.117920
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 395.349762 ms
+
+
+RESULT, 4096, 256, 50688, 83, 395.349762
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 396.951630 ms
+
+
+RESULT, 4096, 256, 67584, 63, 396.951630
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 398.532837 ms
+
+
+RESULT, 4096, 256, 101376, 42, 398.532837
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 400.032776 ms
+
+
+RESULT, 4096, 256, 135168, 32, 400.032776
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 402.440521 ms
+
+
+RESULT, 4096, 256, 202752, 21, 402.440521
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 407.130249 ms
+
+
+RESULT, 4096, 256, 270336, 16, 407.130249
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 416.816803 ms
+
+
+RESULT, 4096, 256, 540672, 8, 416.816803
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 433.252350 ms
+
+
+RESULT, 4096, 256, 1081344, 4, 433.252350
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 460.102112 ms
+
+
+RESULT, 4096, 256, 2162688, 2, 460.102112
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 507.297058 ms
+
+
+RESULT, 4096, 256, 4325376, 1, 507.297058
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1044.442871 ms
+
+
+RESULT, 4096, 512, 132, 31776, 1044.442871
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 688.527344 ms
+
+
+RESULT, 4096, 512, 264, 15888, 688.527344
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 670.338196 ms
+
+
+RESULT, 4096, 512, 528, 7944, 670.338196
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 661.350159 ms
+
+
+RESULT, 4096, 512, 1056, 3972, 661.350159
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 652.084595 ms
+
+
+RESULT, 4096, 512, 2112, 1986, 652.084595
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 645.545410 ms
+
+
+RESULT, 4096, 512, 4224, 993, 645.545410
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 642.778137 ms
+
+
+RESULT, 4096, 512, 8448, 497, 642.778137
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 641.509705 ms
+
+
+RESULT, 4096, 512, 12672, 331, 641.509705
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 642.640259 ms
+
+
+RESULT, 4096, 512, 16896, 249, 642.640259
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 642.256287 ms
+
+
+RESULT, 4096, 512, 25344, 166, 642.256287
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 643.997681 ms
+
+
+RESULT, 4096, 512, 33792, 125, 643.997681
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 643.403564 ms
+
+
+RESULT, 4096, 512, 50688, 83, 643.403564
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 646.733337 ms
+
+
+RESULT, 4096, 512, 67584, 63, 646.733337
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 649.822083 ms
+
+
+RESULT, 4096, 512, 101376, 42, 649.822083
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 652.319214 ms
+
+
+RESULT, 4096, 512, 135168, 32, 652.319214
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 655.606201 ms
+
+
+RESULT, 4096, 512, 202752, 21, 655.606201
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 664.908936 ms
+
+
+RESULT, 4096, 512, 270336, 16, 664.908936
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 680.322815 ms
+
+
+RESULT, 4096, 512, 540672, 8, 680.322815
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 706.921082 ms
+
+
+RESULT, 4096, 512, 1081344, 4, 706.921082
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 754.074768 ms
+
+
+RESULT, 4096, 512, 2162688, 2, 754.074768
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 855.696411 ms
+
+
+RESULT, 4096, 512, 4325376, 1, 855.696411
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1167.062622 ms
+
+
+RESULT, 4096, 1024, 132, 31776, 1167.062622
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1141.458496 ms
+
+
+RESULT, 4096, 1024, 264, 15888, 1141.458496
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1140.523315 ms
+
+
+RESULT, 4096, 1024, 528, 7944, 1140.523315
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1139.905762 ms
+
+
+RESULT, 4096, 1024, 1056, 3972, 1139.905762
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1139.742310 ms
+
+
+RESULT, 4096, 1024, 2112, 1986, 1139.742310
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1139.796509 ms
+
+
+RESULT, 4096, 1024, 4224, 993, 1139.796509
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1141.358276 ms
+
+
+RESULT, 4096, 1024, 8448, 497, 1141.358276
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1141.123779 ms
+
+
+RESULT, 4096, 1024, 12672, 331, 1141.123779
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1144.193726 ms
+
+
+RESULT, 4096, 1024, 16896, 249, 1144.193726
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1145.184082 ms
+
+
+RESULT, 4096, 1024, 25344, 166, 1145.184082
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1148.936768 ms
+
+
+RESULT, 4096, 1024, 33792, 125, 1148.936768
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1148.963135 ms
+
+
+RESULT, 4096, 1024, 50688, 83, 1148.963135
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1156.000366 ms
+
+
+RESULT, 4096, 1024, 67584, 63, 1156.000366
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1163.510620 ms
+
+
+RESULT, 4096, 1024, 101376, 42, 1163.510620
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1169.056763 ms
+
+
+RESULT, 4096, 1024, 135168, 32, 1169.056763
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1177.630371 ms
+
+
+RESULT, 4096, 1024, 202752, 21, 1177.630371
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1196.827026 ms
+
+
+RESULT, 4096, 1024, 270336, 16, 1196.827026
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1229.625366 ms
+
+
+RESULT, 4096, 1024, 540672, 8, 1229.625366
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1294.372681 ms
+
+
+RESULT, 4096, 1024, 1081344, 4, 1294.372681
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1424.320435 ms
+
+
+RESULT, 4096, 1024, 2162688, 2, 1424.320435
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_circular_buffer_kernel
+Execution time for merge_circular_buffer_kernel: 1659.821777 ms
+
+
+RESULT, 4096, 1024, 4325376, 1, 1659.821777
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+Benchmark Finished at: 2026-01-16 09:25:00

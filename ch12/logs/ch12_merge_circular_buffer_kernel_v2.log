@@ -1,0 +1,4999 @@
+Currently using CUDA device 0: NVIDIA H200
+Filling A...
+Filling B...
+A filled.
+B filled.
+A[0]-A[4]:                       -1073.741211, -1073.741211, -1073.741211, -1073.741211, -1073.741211
+A[1ULL<<31]-A[(1ULL<<31)+4]:        -0.023227,    -0.023226,    -0.023225,    -0.023224,    -0.023224
+A[last-4]-A[last]:                3221.188965,  3221.188965,  3221.188965,  3221.188965,  3221.188965
+B[0]-B[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+B[1ULL<<31]-B[(1ULL<<31)+4]:         0.014718,     0.014719,     0.014719,     0.014720,     0.014720
+B[last-4]-B[last]:                3221.239014,  3221.239014,  3221.239014,  3221.239014,  3221.239014
+C[0]-C[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+C[1ULL<<32]-C[(1ULL<<32)+4]:        -0.004246,    -0.004245,    -0.004245,    -0.004245,    -0.004245
+C[last-4]-C[last]:                3221.239014,  3221.239014,  3221.239014,  3221.239014,  3221.239014
+C_gpu[0]-C_gpu[4]:                       -1073.741699, -1073.741699, -1073.741699, -1073.741699, -1073.741699
+C_gpu[1ULL<<32]-C_gpu[(1ULL<<32)+4]:        -0.004246,    -0.004245,    -0.004245,    -0.004245,    -0.004245
+C_gpu[last-4]-C_gpu[last]:                3221.239014,  3221.239014,  3221.239014,  3221.239014,  3221.239014
+EQUAL CHECK SUCCESS!
+
+Benchmark started at: 2026-01-15 20:44:45
+
+################################################################
+########## Starting Benchmark for tile_sizes:   512
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                254201
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 3530.670898 ms
+
+
+RESULT, 512, 32, 132, 254201, 3530.670898
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1774.465942 ms
+
+
+RESULT, 512, 32, 264, 127101, 1774.465942
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 897.944702 ms
+
+
+RESULT, 512, 32, 528, 63551, 897.944702
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 461.963043 ms
+
+
+RESULT, 512, 32, 1056, 31776, 461.963043
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 248.437698 ms
+
+
+RESULT, 512, 32, 2112, 15888, 248.437698
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 164.701035 ms
+
+
+RESULT, 512, 32, 4224, 7944, 164.701035
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 162.500916 ms
+
+
+RESULT, 512, 32, 8448, 3972, 162.500916
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  2648
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 161.701416 ms
+
+
+RESULT, 512, 32, 12672, 2648, 161.701416
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 160.099579 ms
+
+
+RESULT, 512, 32, 16896, 1986, 160.099579
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 159.566116 ms
+
+
+RESULT, 512, 32, 25344, 1324, 159.566116
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 158.850281 ms
+
+
+RESULT, 512, 32, 33792, 993, 158.850281
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.521667 ms
+
+
+RESULT, 512, 32, 50688, 662, 157.521667
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.341476 ms
+
+
+RESULT, 512, 32, 67584, 497, 157.341476
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.490555 ms
+
+
+RESULT, 512, 32, 101376, 331, 156.490555
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.300873 ms
+
+
+RESULT, 512, 32, 135168, 249, 156.300873
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 155.975037 ms
+
+
+RESULT, 512, 32, 202752, 166, 155.975037
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.363922 ms
+
+
+RESULT, 512, 32, 270336, 125, 156.363922
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.862732 ms
+
+
+RESULT, 512, 32, 540672, 63, 156.862732
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 160.065796 ms
+
+
+RESULT, 512, 32, 1081344, 32, 160.065796
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 166.900269 ms
+
+
+RESULT, 512, 32, 2162688, 16, 166.900269
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 179.510117 ms
+
+
+RESULT, 512, 32, 4325376, 8, 179.510117
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                254201
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2492.105469 ms
+
+
+RESULT, 512, 64, 132, 254201, 2492.105469
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1252.456909 ms
+
+
+RESULT, 512, 64, 264, 127101, 1252.456909
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 648.760376 ms
+
+
+RESULT, 512, 64, 528, 63551, 648.760376
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 354.251648 ms
+
+
+RESULT, 512, 64, 1056, 31776, 354.251648
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 260.254822 ms
+
+
+RESULT, 512, 64, 2112, 15888, 260.254822
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 236.822113 ms
+
+
+RESULT, 512, 64, 4224, 7944, 236.822113
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 224.695328 ms
+
+
+RESULT, 512, 64, 8448, 3972, 224.695328
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  2648
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 219.353531 ms
+
+
+RESULT, 512, 64, 12672, 2648, 219.353531
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 216.806152 ms
+
+
+RESULT, 512, 64, 16896, 1986, 216.806152
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 214.227188 ms
+
+
+RESULT, 512, 64, 25344, 1324, 214.227188
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 213.074631 ms
+
+
+RESULT, 512, 64, 33792, 993, 213.074631
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 211.763763 ms
+
+
+RESULT, 512, 64, 50688, 662, 211.763763
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 211.243988 ms
+
+
+RESULT, 512, 64, 67584, 497, 211.243988
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 210.689667 ms
+
+
+RESULT, 512, 64, 101376, 331, 210.689667
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 210.542542 ms
+
+
+RESULT, 512, 64, 135168, 249, 210.542542
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 210.327911 ms
+
+
+RESULT, 512, 64, 202752, 166, 210.327911
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 210.548187 ms
+
+
+RESULT, 512, 64, 270336, 125, 210.548187
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 211.374390 ms
+
+
+RESULT, 512, 64, 540672, 63, 211.374390
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 213.751099 ms
+
+
+RESULT, 512, 64, 1081344, 32, 213.751099
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 220.112869 ms
+
+
+RESULT, 512, 64, 2162688, 16, 220.112869
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 236.157104 ms
+
+
+RESULT, 512, 64, 4325376, 8, 236.157104
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                254201
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2001.593140 ms
+
+
+RESULT, 512, 128, 132, 254201, 2001.593140
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1046.195190 ms
+
+
+RESULT, 512, 128, 264, 127101, 1046.195190
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 579.848572 ms
+
+
+RESULT, 512, 128, 528, 63551, 579.848572
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 442.700806 ms
+
+
+RESULT, 512, 128, 1056, 31776, 442.700806
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 399.407349 ms
+
+
+RESULT, 512, 128, 2112, 15888, 399.407349
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 376.090912 ms
+
+
+RESULT, 512, 128, 4224, 7944, 376.090912
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 363.122894 ms
+
+
+RESULT, 512, 128, 8448, 3972, 363.122894
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  2648
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 358.825104 ms
+
+
+RESULT, 512, 128, 12672, 2648, 358.825104
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 356.780426 ms
+
+
+RESULT, 512, 128, 16896, 1986, 356.780426
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 354.626282 ms
+
+
+RESULT, 512, 128, 25344, 1324, 354.626282
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 353.713013 ms
+
+
+RESULT, 512, 128, 33792, 993, 353.713013
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 352.680511 ms
+
+
+RESULT, 512, 128, 50688, 662, 352.680511
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 352.372101 ms
+
+
+RESULT, 512, 128, 67584, 497, 352.372101
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 351.981873 ms
+
+
+RESULT, 512, 128, 101376, 331, 351.981873
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 352.179260 ms
+
+
+RESULT, 512, 128, 135168, 249, 352.179260
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 352.293274 ms
+
+
+RESULT, 512, 128, 202752, 166, 352.293274
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 352.957214 ms
+
+
+RESULT, 512, 128, 270336, 125, 352.957214
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 355.388824 ms
+
+
+RESULT, 512, 128, 540672, 63, 355.388824
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 360.694305 ms
+
+
+RESULT, 512, 128, 1081344, 32, 360.694305
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 372.570496 ms
+
+
+RESULT, 512, 128, 2162688, 16, 372.570496
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 391.599457 ms
+
+
+RESULT, 512, 128, 4325376, 8, 391.599457
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                254201
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1828.264648 ms
+
+
+RESULT, 512, 256, 132, 254201, 1828.264648
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1043.509399 ms
+
+
+RESULT, 512, 256, 264, 127101, 1043.509399
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 793.343201 ms
+
+
+RESULT, 512, 256, 528, 63551, 793.343201
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 717.297729 ms
+
+
+RESULT, 512, 256, 1056, 31776, 717.297729
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 679.941589 ms
+
+
+RESULT, 512, 256, 2112, 15888, 679.941589
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 657.854736 ms
+
+
+RESULT, 512, 256, 4224, 7944, 657.854736
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 647.220032 ms
+
+
+RESULT, 512, 256, 8448, 3972, 647.220032
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  2648
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 643.762756 ms
+
+
+RESULT, 512, 256, 12672, 2648, 643.762756
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 642.307861 ms
+
+
+RESULT, 512, 256, 16896, 1986, 642.307861
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 640.476257 ms
+
+
+RESULT, 512, 256, 25344, 1324, 640.476257
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 639.911621 ms
+
+
+RESULT, 512, 256, 33792, 993, 639.911621
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 639.141113 ms
+
+
+RESULT, 512, 256, 50688, 662, 639.141113
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 639.174988 ms
+
+
+RESULT, 512, 256, 67584, 497, 639.174988
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 639.061096 ms
+
+
+RESULT, 512, 256, 101376, 331, 639.061096
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 639.847168 ms
+
+
+RESULT, 512, 256, 135168, 249, 639.847168
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 640.454895 ms
+
+
+RESULT, 512, 256, 202752, 166, 640.454895
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 641.734619 ms
+
+
+RESULT, 512, 256, 270336, 125, 641.734619
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 646.371887 ms
+
+
+RESULT, 512, 256, 540672, 63, 646.371887
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 655.997803 ms
+
+
+RESULT, 512, 256, 1081344, 32, 655.997803
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 675.730774 ms
+
+
+RESULT, 512, 256, 2162688, 16, 675.730774
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 714.896118 ms
+
+
+RESULT, 512, 256, 4325376, 8, 714.896118
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                254201
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1946.606201 ms
+
+
+RESULT, 512, 512, 132, 254201, 1946.606201
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1445.435059 ms
+
+
+RESULT, 512, 512, 264, 127101, 1445.435059
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1356.271973 ms
+
+
+RESULT, 512, 512, 528, 63551, 1356.271973
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1325.482056 ms
+
+
+RESULT, 512, 512, 1056, 31776, 1325.482056
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1301.444580 ms
+
+
+RESULT, 512, 512, 2112, 15888, 1301.444580
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1288.017578 ms
+
+
+RESULT, 512, 512, 4224, 7944, 1288.017578
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1281.432129 ms
+
+
+RESULT, 512, 512, 8448, 3972, 1281.432129
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  2648
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1279.449463 ms
+
+
+RESULT, 512, 512, 12672, 2648, 1279.449463
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1279.675415 ms
+
+
+RESULT, 512, 512, 16896, 1986, 1279.675415
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1278.713623 ms
+
+
+RESULT, 512, 512, 25344, 1324, 1278.713623
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1279.248291 ms
+
+
+RESULT, 512, 512, 33792, 993, 1279.248291
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1279.389282 ms
+
+
+RESULT, 512, 512, 50688, 662, 1279.389282
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1280.555176 ms
+
+
+RESULT, 512, 512, 67584, 497, 1280.555176
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1281.278564 ms
+
+
+RESULT, 512, 512, 101376, 331, 1281.278564
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1284.073608 ms
+
+
+RESULT, 512, 512, 135168, 249, 1284.073608
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1287.685303 ms
+
+
+RESULT, 512, 512, 202752, 166, 1287.685303
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1292.324951 ms
+
+
+RESULT, 512, 512, 270336, 125, 1292.324951
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1309.822998 ms
+
+
+RESULT, 512, 512, 540672, 63, 1309.822998
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1341.896973 ms
+
+
+RESULT, 512, 512, 1081344, 32, 1341.896973
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1404.634644 ms
+
+
+RESULT, 512, 512, 2162688, 16, 1404.634644
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1522.234009 ms
+
+
+RESULT, 512, 512, 4325376, 8, 1522.234009
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  1024
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2827.722900 ms
+
+
+RESULT, 1024, 32, 132, 127101, 2827.722900
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1427.729980 ms
+
+
+RESULT, 1024, 32, 264, 63551, 1427.729980
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 724.934204 ms
+
+
+RESULT, 1024, 32, 528, 31776, 724.934204
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 381.704193 ms
+
+
+RESULT, 1024, 32, 1056, 15888, 381.704193
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 216.729355 ms
+
+
+RESULT, 1024, 32, 2112, 7944, 216.729355
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 261.079224 ms
+
+
+RESULT, 1024, 32, 4224, 3972, 261.079224
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 199.533508 ms
+
+
+RESULT, 1024, 32, 8448, 1986, 199.533508
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 181.444611 ms
+
+
+RESULT, 1024, 32, 12672, 1324, 181.444611
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 191.273727 ms
+
+
+RESULT, 1024, 32, 16896, 993, 191.273727
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 176.304550 ms
+
+
+RESULT, 1024, 32, 25344, 662, 176.304550
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 184.700775 ms
+
+
+RESULT, 1024, 32, 33792, 497, 184.700775
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 178.611069 ms
+
+
+RESULT, 1024, 32, 50688, 331, 178.611069
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 178.421341 ms
+
+
+RESULT, 1024, 32, 67584, 249, 178.421341
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 177.288025 ms
+
+
+RESULT, 1024, 32, 101376, 166, 177.288025
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 177.261841 ms
+
+
+RESULT, 1024, 32, 135168, 125, 177.261841
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 176.660110 ms
+
+
+RESULT, 1024, 32, 202752, 83, 176.660110
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 177.804291 ms
+
+
+RESULT, 1024, 32, 270336, 63, 177.804291
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 177.320938 ms
+
+
+RESULT, 1024, 32, 540672, 32, 177.320938
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 180.072968 ms
+
+
+RESULT, 1024, 32, 1081344, 16, 180.072968
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 187.818573 ms
+
+
+RESULT, 1024, 32, 2162688, 8, 187.818573
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 206.293243 ms
+
+
+RESULT, 1024, 32, 4325376, 4, 206.293243
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1816.807495 ms
+
+
+RESULT, 1024, 64, 132, 127101, 1816.807495
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 917.497681 ms
+
+
+RESULT, 1024, 64, 264, 63551, 917.497681
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 474.175232 ms
+
+
+RESULT, 1024, 64, 528, 31776, 474.175232
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 258.720886 ms
+
+
+RESULT, 1024, 64, 1056, 15888, 258.720886
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 171.867859 ms
+
+
+RESULT, 1024, 64, 2112, 7944, 171.867859
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 164.171509 ms
+
+
+RESULT, 1024, 64, 4224, 3972, 164.171509
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 158.473282 ms
+
+
+RESULT, 1024, 64, 8448, 1986, 158.473282
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 153.532364 ms
+
+
+RESULT, 1024, 64, 12672, 1324, 153.532364
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 152.553589 ms
+
+
+RESULT, 1024, 64, 16896, 993, 152.553589
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 150.651947 ms
+
+
+RESULT, 1024, 64, 25344, 662, 150.651947
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 150.492676 ms
+
+
+RESULT, 1024, 64, 33792, 497, 150.492676
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 149.639175 ms
+
+
+RESULT, 1024, 64, 50688, 331, 149.639175
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 149.610062 ms
+
+
+RESULT, 1024, 64, 67584, 249, 149.610062
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 149.365356 ms
+
+
+RESULT, 1024, 64, 101376, 166, 149.365356
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 149.486343 ms
+
+
+RESULT, 1024, 64, 135168, 125, 149.486343
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 149.481812 ms
+
+
+RESULT, 1024, 64, 202752, 83, 149.481812
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 150.240768 ms
+
+
+RESULT, 1024, 64, 270336, 63, 150.240768
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 151.743607 ms
+
+
+RESULT, 1024, 64, 540672, 32, 151.743607
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.805176 ms
+
+
+RESULT, 1024, 64, 1081344, 16, 156.805176
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 167.994354 ms
+
+
+RESULT, 1024, 64, 2162688, 8, 167.994354
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 185.884781 ms
+
+
+RESULT, 1024, 64, 4325376, 4, 185.884781
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1326.840332 ms
+
+
+RESULT, 1024, 128, 132, 127101, 1326.840332
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 689.199402 ms
+
+
+RESULT, 1024, 128, 264, 63551, 689.199402
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 377.124878 ms
+
+
+RESULT, 1024, 128, 528, 31776, 377.124878
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 270.936127 ms
+
+
+RESULT, 1024, 128, 1056, 15888, 270.936127
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 249.436386 ms
+
+
+RESULT, 1024, 128, 2112, 7944, 249.436386
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 236.316116 ms
+
+
+RESULT, 1024, 128, 4224, 3972, 236.316116
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.660431 ms
+
+
+RESULT, 1024, 128, 8448, 1986, 227.660431
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 224.878784 ms
+
+
+RESULT, 1024, 128, 12672, 1324, 224.878784
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 223.629028 ms
+
+
+RESULT, 1024, 128, 16896, 993, 223.629028
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 222.196274 ms
+
+
+RESULT, 1024, 128, 25344, 662, 222.196274
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.747345 ms
+
+
+RESULT, 1024, 128, 33792, 497, 221.747345
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.131760 ms
+
+
+RESULT, 1024, 128, 50688, 331, 221.131760
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.184265 ms
+
+
+RESULT, 1024, 128, 67584, 249, 221.184265
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.131699 ms
+
+
+RESULT, 1024, 128, 101376, 166, 221.131699
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.513718 ms
+
+
+RESULT, 1024, 128, 135168, 125, 221.513718
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.995743 ms
+
+
+RESULT, 1024, 128, 202752, 83, 221.995743
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 223.109421 ms
+
+
+RESULT, 1024, 128, 270336, 63, 223.109421
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 226.672302 ms
+
+
+RESULT, 1024, 128, 540672, 32, 226.672302
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 234.748871 ms
+
+
+RESULT, 1024, 128, 1081344, 16, 234.748871
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 247.986893 ms
+
+
+RESULT, 1024, 128, 2162688, 8, 247.986893
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 271.951477 ms
+
+
+RESULT, 1024, 128, 4325376, 4, 271.951477
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1128.877319 ms
+
+
+RESULT, 1024, 256, 132, 127101, 1128.877319
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 636.297913 ms
+
+
+RESULT, 1024, 256, 264, 63551, 636.297913
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 469.814880 ms
+
+
+RESULT, 1024, 256, 528, 31776, 469.814880
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 431.417999 ms
+
+
+RESULT, 1024, 256, 1056, 15888, 431.417999
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 409.841797 ms
+
+
+RESULT, 1024, 256, 2112, 7944, 409.841797
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 397.026215 ms
+
+
+RESULT, 1024, 256, 4224, 3972, 397.026215
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 390.885590 ms
+
+
+RESULT, 1024, 256, 8448, 1986, 390.885590
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 388.932526 ms
+
+
+RESULT, 1024, 256, 12672, 1324, 388.932526
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 388.123138 ms
+
+
+RESULT, 1024, 256, 16896, 993, 388.123138
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 387.114349 ms
+
+
+RESULT, 1024, 256, 25344, 662, 387.114349
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 386.962189 ms
+
+
+RESULT, 1024, 256, 33792, 497, 386.962189
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 386.574738 ms
+
+
+RESULT, 1024, 256, 50688, 331, 386.574738
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 387.078705 ms
+
+
+RESULT, 1024, 256, 67584, 249, 387.078705
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 387.298584 ms
+
+
+RESULT, 1024, 256, 101376, 166, 387.298584
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 388.024292 ms
+
+
+RESULT, 1024, 256, 135168, 125, 388.024292
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 388.822144 ms
+
+
+RESULT, 1024, 256, 202752, 83, 388.822144
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 390.679108 ms
+
+
+RESULT, 1024, 256, 270336, 63, 390.679108
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 396.395264 ms
+
+
+RESULT, 1024, 256, 540672, 32, 396.395264
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 408.360626 ms
+
+
+RESULT, 1024, 256, 1081344, 16, 408.360626
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 430.826172 ms
+
+
+RESULT, 1024, 256, 2162688, 8, 430.826172
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 474.289948 ms
+
+
+RESULT, 1024, 256, 4325376, 4, 474.289948
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1123.175293 ms
+
+
+RESULT, 1024, 512, 132, 127101, 1123.175293
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 838.581543 ms
+
+
+RESULT, 1024, 512, 264, 63551, 838.581543
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 800.744629 ms
+
+
+RESULT, 1024, 512, 528, 31776, 800.744629
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 781.097839 ms
+
+
+RESULT, 1024, 512, 1056, 15888, 781.097839
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 766.141174 ms
+
+
+RESULT, 1024, 512, 2112, 7944, 766.141174
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 758.914429 ms
+
+
+RESULT, 1024, 512, 4224, 3972, 758.914429
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 755.991394 ms
+
+
+RESULT, 1024, 512, 8448, 1986, 755.991394
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 754.971313 ms
+
+
+RESULT, 1024, 512, 12672, 1324, 754.971313
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 755.030945 ms
+
+
+RESULT, 1024, 512, 16896, 993, 755.030945
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 754.677673 ms
+
+
+RESULT, 1024, 512, 25344, 662, 754.677673
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 755.374512 ms
+
+
+RESULT, 1024, 512, 33792, 497, 755.374512
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 755.748230 ms
+
+
+RESULT, 1024, 512, 50688, 331, 755.748230
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 757.368958 ms
+
+
+RESULT, 1024, 512, 67584, 249, 757.368958
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 758.902283 ms
+
+
+RESULT, 1024, 512, 101376, 166, 758.902283
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 761.411255 ms
+
+
+RESULT, 1024, 512, 135168, 125, 761.411255
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 764.231079 ms
+
+
+RESULT, 1024, 512, 202752, 83, 764.231079
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 770.183350 ms
+
+
+RESULT, 1024, 512, 270336, 63, 770.183350
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 787.945923 ms
+
+
+RESULT, 1024, 512, 540672, 32, 787.945923
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 821.391235 ms
+
+
+RESULT, 1024, 512, 1081344, 16, 821.391235
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 880.323608 ms
+
+
+RESULT, 1024, 512, 2162688, 8, 880.323608
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1000.639038 ms
+
+
+RESULT, 1024, 512, 4325376, 4, 1000.639038
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                127101
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1519.067627 ms
+
+
+RESULT, 1024, 1024, 132, 127101, 1519.067627
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1471.995972 ms
+
+
+RESULT, 1024, 1024, 264, 63551, 1471.995972
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1466.656738 ms
+
+
+RESULT, 1024, 1024, 528, 31776, 1466.656738
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1465.994995 ms
+
+
+RESULT, 1024, 1024, 1056, 15888, 1465.994995
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1463.716553 ms
+
+
+RESULT, 1024, 1024, 2112, 7944, 1463.716553
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1462.732056 ms
+
+
+RESULT, 1024, 1024, 4224, 3972, 1462.732056
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1464.016602 ms
+
+
+RESULT, 1024, 1024, 8448, 1986, 1464.016602
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                  1324
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1464.186523 ms
+
+
+RESULT, 1024, 1024, 12672, 1324, 1464.186523
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1465.933594 ms
+
+
+RESULT, 1024, 1024, 16896, 993, 1465.933594
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1466.602051 ms
+
+
+RESULT, 1024, 1024, 25344, 662, 1466.602051
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1469.102295 ms
+
+
+RESULT, 1024, 1024, 33792, 497, 1469.102295
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1470.961304 ms
+
+
+RESULT, 1024, 1024, 50688, 331, 1470.961304
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1475.044678 ms
+
+
+RESULT, 1024, 1024, 67584, 249, 1475.044678
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1480.206299 ms
+
+
+RESULT, 1024, 1024, 101376, 166, 1480.206299
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1487.109741 ms
+
+
+RESULT, 1024, 1024, 135168, 125, 1487.109741
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1496.211914 ms
+
+
+RESULT, 1024, 1024, 202752, 83, 1496.211914
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1511.091553 ms
+
+
+RESULT, 1024, 1024, 270336, 63, 1511.091553
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1557.088623 ms
+
+
+RESULT, 1024, 1024, 540672, 32, 1557.088623
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1647.971069 ms
+
+
+RESULT, 1024, 1024, 1081344, 16, 1647.971069
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1810.445801 ms
+
+
+RESULT, 1024, 1024, 2162688, 8, 1810.445801
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2141.155029 ms
+
+
+RESULT, 1024, 1024, 4325376, 4, 2141.155029
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  2048
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2426.599121 ms
+
+
+RESULT, 2048, 32, 132, 63551, 2426.599121
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1228.047241 ms
+
+
+RESULT, 2048, 32, 264, 31776, 1228.047241
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 626.402832 ms
+
+
+RESULT, 2048, 32, 528, 15888, 626.402832
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 330.767212 ms
+
+
+RESULT, 2048, 32, 1056, 7944, 330.767212
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 345.058075 ms
+
+
+RESULT, 2048, 32, 2112, 3972, 345.058075
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 267.897400 ms
+
+
+RESULT, 2048, 32, 4224, 1986, 267.897400
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.963470 ms
+
+
+RESULT, 2048, 32, 8448, 993, 227.963470
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 239.160004 ms
+
+
+RESULT, 2048, 32, 12672, 662, 239.160004
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.018127 ms
+
+
+RESULT, 2048, 32, 16896, 497, 227.018127
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 226.309967 ms
+
+
+RESULT, 2048, 32, 25344, 331, 226.309967
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.768951 ms
+
+
+RESULT, 2048, 32, 33792, 249, 227.768951
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.388672 ms
+
+
+RESULT, 2048, 32, 50688, 166, 227.388672
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.791794 ms
+
+
+RESULT, 2048, 32, 67584, 125, 227.791794
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 227.385620 ms
+
+
+RESULT, 2048, 32, 101376, 83, 227.385620
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 228.074371 ms
+
+
+RESULT, 2048, 32, 135168, 63, 228.074371
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 229.440155 ms
+
+
+RESULT, 2048, 32, 202752, 42, 229.440155
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 231.161911 ms
+
+
+RESULT, 2048, 32, 270336, 32, 231.161911
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.571854 ms
+
+
+RESULT, 2048, 32, 540672, 16, 237.571854
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 251.223709 ms
+
+
+RESULT, 2048, 32, 1081344, 8, 251.223709
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 278.475830 ms
+
+
+RESULT, 2048, 32, 2162688, 4, 278.475830
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 311.427429 ms
+
+
+RESULT, 2048, 32, 4325376, 2, 311.427429
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1472.742798 ms
+
+
+RESULT, 2048, 64, 132, 63551, 1472.742798
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 754.215027 ms
+
+
+RESULT, 2048, 64, 264, 31776, 754.215027
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 405.290863 ms
+
+
+RESULT, 2048, 64, 528, 15888, 405.290863
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 232.090591 ms
+
+
+RESULT, 2048, 64, 1056, 7944, 232.090591
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 273.689270 ms
+
+
+RESULT, 2048, 64, 2112, 3972, 273.689270
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 212.006042 ms
+
+
+RESULT, 2048, 64, 4224, 1986, 212.006042
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 184.679245 ms
+
+
+RESULT, 2048, 64, 8448, 993, 184.679245
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 190.217072 ms
+
+
+RESULT, 2048, 64, 12672, 662, 190.217072
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 183.749008 ms
+
+
+RESULT, 2048, 64, 16896, 497, 183.749008
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 179.660919 ms
+
+
+RESULT, 2048, 64, 25344, 331, 179.660919
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 182.663589 ms
+
+
+RESULT, 2048, 64, 33792, 249, 182.663589
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 180.296890 ms
+
+
+RESULT, 2048, 64, 50688, 166, 180.296890
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 181.745743 ms
+
+
+RESULT, 2048, 64, 67584, 125, 181.745743
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 181.243607 ms
+
+
+RESULT, 2048, 64, 101376, 83, 181.243607
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 182.416702 ms
+
+
+RESULT, 2048, 64, 135168, 63, 182.416702
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 181.741898 ms
+
+
+RESULT, 2048, 64, 202752, 42, 181.741898
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 183.743591 ms
+
+
+RESULT, 2048, 64, 270336, 32, 183.743591
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 186.495453 ms
+
+
+RESULT, 2048, 64, 540672, 16, 186.495453
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 192.712494 ms
+
+
+RESULT, 2048, 64, 1081344, 8, 192.712494
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 209.848755 ms
+
+
+RESULT, 2048, 64, 2162688, 4, 209.848755
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 236.823578 ms
+
+
+RESULT, 2048, 64, 4325376, 2, 236.823578
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 957.039307 ms
+
+
+RESULT, 2048, 128, 132, 63551, 957.039307
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 499.753113 ms
+
+
+RESULT, 2048, 128, 264, 31776, 499.753113
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 276.293243 ms
+
+
+RESULT, 2048, 128, 528, 15888, 276.293243
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 181.109085 ms
+
+
+RESULT, 2048, 128, 1056, 7944, 181.109085
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 173.267914 ms
+
+
+RESULT, 2048, 128, 2112, 3972, 173.267914
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 167.595566 ms
+
+
+RESULT, 2048, 128, 4224, 1986, 167.595566
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 160.702057 ms
+
+
+RESULT, 2048, 128, 8448, 993, 160.702057
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 158.965149 ms
+
+
+RESULT, 2048, 128, 12672, 662, 158.965149
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 158.001877 ms
+
+
+RESULT, 2048, 128, 16896, 497, 158.001877
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.903549 ms
+
+
+RESULT, 2048, 128, 25344, 331, 156.903549
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.201401 ms
+
+
+RESULT, 2048, 128, 33792, 249, 157.201401
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 156.758194 ms
+
+
+RESULT, 2048, 128, 50688, 166, 156.758194
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.040298 ms
+
+
+RESULT, 2048, 128, 67584, 125, 157.040298
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.154556 ms
+
+
+RESULT, 2048, 128, 101376, 83, 157.154556
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 157.854599 ms
+
+
+RESULT, 2048, 128, 135168, 63, 157.854599
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 158.721054 ms
+
+
+RESULT, 2048, 128, 202752, 42, 158.721054
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 159.966599 ms
+
+
+RESULT, 2048, 128, 270336, 32, 159.966599
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 164.800308 ms
+
+
+RESULT, 2048, 128, 540672, 16, 164.800308
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 173.904968 ms
+
+
+RESULT, 2048, 128, 1081344, 8, 173.904968
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 190.019180 ms
+
+
+RESULT, 2048, 128, 2162688, 4, 190.019180
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 218.487152 ms
+
+
+RESULT, 2048, 128, 4325376, 2, 218.487152
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 734.525146 ms
+
+
+RESULT, 2048, 256, 132, 63551, 734.525146
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 405.837921 ms
+
+
+RESULT, 2048, 256, 264, 31776, 405.837921
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 286.622803 ms
+
+
+RESULT, 2048, 256, 528, 15888, 286.622803
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 264.914307 ms
+
+
+RESULT, 2048, 256, 1056, 7944, 264.914307
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 252.363007 ms
+
+
+RESULT, 2048, 256, 2112, 3972, 252.363007
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 243.437576 ms
+
+
+RESULT, 2048, 256, 4224, 1986, 243.437576
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 239.527832 ms
+
+
+RESULT, 2048, 256, 8448, 993, 239.527832
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 238.258377 ms
+
+
+RESULT, 2048, 256, 12672, 662, 238.258377
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.859650 ms
+
+
+RESULT, 2048, 256, 16896, 497, 237.859650
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.292770 ms
+
+
+RESULT, 2048, 256, 25344, 331, 237.292770
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.556625 ms
+
+
+RESULT, 2048, 256, 33792, 249, 237.556625
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.532242 ms
+
+
+RESULT, 2048, 256, 50688, 166, 237.532242
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 237.969360 ms
+
+
+RESULT, 2048, 256, 67584, 125, 237.969360
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 238.400299 ms
+
+
+RESULT, 2048, 256, 101376, 83, 238.400299
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 239.613464 ms
+
+
+RESULT, 2048, 256, 135168, 63, 239.613464
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 241.439224 ms
+
+
+RESULT, 2048, 256, 202752, 42, 241.439224
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 243.260101 ms
+
+
+RESULT, 2048, 256, 270336, 32, 243.260101
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 251.052826 ms
+
+
+RESULT, 2048, 256, 540672, 16, 251.052826
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 266.309723 ms
+
+
+RESULT, 2048, 256, 1081344, 8, 266.309723
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 288.191498 ms
+
+
+RESULT, 2048, 256, 2162688, 4, 288.191498
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 347.024261 ms
+
+
+RESULT, 2048, 256, 4325376, 2, 347.024261
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 677.103577 ms
+
+
+RESULT, 2048, 512, 132, 63551, 677.103577
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 493.252136 ms
+
+
+RESULT, 2048, 512, 264, 31776, 493.252136
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 472.819641 ms
+
+
+RESULT, 2048, 512, 528, 15888, 472.819641
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 462.567017 ms
+
+
+RESULT, 2048, 512, 1056, 7944, 462.567017
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 454.336945 ms
+
+
+RESULT, 2048, 512, 2112, 3972, 454.336945
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 450.269836 ms
+
+
+RESULT, 2048, 512, 4224, 1986, 450.269836
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 448.602448 ms
+
+
+RESULT, 2048, 512, 8448, 993, 448.602448
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 448.170868 ms
+
+
+RESULT, 2048, 512, 12672, 662, 448.170868
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 448.514954 ms
+
+
+RESULT, 2048, 512, 16896, 497, 448.514954
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 448.456421 ms
+
+
+RESULT, 2048, 512, 25344, 331, 448.456421
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 449.549500 ms
+
+
+RESULT, 2048, 512, 33792, 249, 449.549500
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 450.238373 ms
+
+
+RESULT, 2048, 512, 50688, 166, 450.238373
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 451.635895 ms
+
+
+RESULT, 2048, 512, 67584, 125, 451.635895
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 453.018433 ms
+
+
+RESULT, 2048, 512, 101376, 83, 453.018433
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 456.481445 ms
+
+
+RESULT, 2048, 512, 135168, 63, 456.481445
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 461.588837 ms
+
+
+RESULT, 2048, 512, 202752, 42, 461.588837
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 466.477417 ms
+
+
+RESULT, 2048, 512, 270336, 32, 466.477417
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 486.906830 ms
+
+
+RESULT, 2048, 512, 540672, 16, 486.906830
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 518.862244 ms
+
+
+RESULT, 2048, 512, 1081344, 8, 518.862244
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 579.013428 ms
+
+
+RESULT, 2048, 512, 2162688, 4, 579.013428
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 750.989624 ms
+
+
+RESULT, 2048, 512, 4325376, 2, 750.989624
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 863.938599 ms
+
+
+RESULT, 2048, 1024, 132, 63551, 863.938599
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 850.046936 ms
+
+
+RESULT, 2048, 1024, 264, 31776, 850.046936
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 845.385498 ms
+
+
+RESULT, 2048, 1024, 528, 15888, 845.385498
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 844.885071 ms
+
+
+RESULT, 2048, 1024, 1056, 7944, 844.885071
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 843.149170 ms
+
+
+RESULT, 2048, 1024, 2112, 3972, 843.149170
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 843.112976 ms
+
+
+RESULT, 2048, 1024, 4224, 1986, 843.112976
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 844.261414 ms
+
+
+RESULT, 2048, 1024, 8448, 993, 844.261414
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 844.650574 ms
+
+
+RESULT, 2048, 1024, 12672, 662, 844.650574
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 846.270386 ms
+
+
+RESULT, 2048, 1024, 16896, 497, 846.270386
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 846.915710 ms
+
+
+RESULT, 2048, 1024, 25344, 331, 846.915710
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 849.910095 ms
+
+
+RESULT, 2048, 1024, 33792, 249, 849.910095
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 852.399597 ms
+
+
+RESULT, 2048, 1024, 50688, 166, 852.399597
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 856.078430 ms
+
+
+RESULT, 2048, 1024, 67584, 125, 856.078430
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 860.217896 ms
+
+
+RESULT, 2048, 1024, 101376, 83, 860.217896
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 868.764832 ms
+
+
+RESULT, 2048, 1024, 135168, 63, 868.764832
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 881.799438 ms
+
+
+RESULT, 2048, 1024, 202752, 42, 881.799438
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 893.300781 ms
+
+
+RESULT, 2048, 1024, 270336, 32, 893.300781
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 940.974548 ms
+
+
+RESULT, 2048, 1024, 540672, 16, 940.974548
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1024.233643 ms
+
+
+RESULT, 2048, 1024, 1081344, 8, 1024.233643
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1189.169556 ms
+
+
+RESULT, 2048, 1024, 2162688, 4, 1189.169556
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1531.697632 ms
+
+
+RESULT, 2048, 1024, 4325376, 2, 1531.697632
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  4096
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 2203.424072 ms
+
+
+RESULT, 4096, 32, 132, 31776, 2203.424072
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1117.945312 ms
+
+
+RESULT, 4096, 32, 264, 15888, 1117.945312
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 574.915588 ms
+
+
+RESULT, 4096, 32, 528, 7944, 574.915588
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 568.035889 ms
+
+
+RESULT, 4096, 32, 1056, 3972, 568.035889
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 435.276001 ms
+
+
+RESULT, 4096, 32, 2112, 1986, 435.276001
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 434.386749 ms
+
+
+RESULT, 4096, 32, 4224, 993, 434.386749
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 401.317383 ms
+
+
+RESULT, 4096, 32, 8448, 497, 401.317383
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 395.766724 ms
+
+
+RESULT, 4096, 32, 12672, 331, 395.766724
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 400.500275 ms
+
+
+RESULT, 4096, 32, 16896, 249, 400.500275
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 396.384186 ms
+
+
+RESULT, 4096, 32, 25344, 166, 396.384186
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 395.774445 ms
+
+
+RESULT, 4096, 32, 33792, 125, 395.774445
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 396.028229 ms
+
+
+RESULT, 4096, 32, 50688, 83, 396.028229
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 397.306091 ms
+
+
+RESULT, 4096, 32, 67584, 63, 397.306091
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 399.972626 ms
+
+
+RESULT, 4096, 32, 101376, 42, 399.972626
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 402.741394 ms
+
+
+RESULT, 4096, 32, 135168, 32, 402.741394
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 408.619446 ms
+
+
+RESULT, 4096, 32, 202752, 21, 408.619446
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 415.883911 ms
+
+
+RESULT, 4096, 32, 270336, 16, 415.883911
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 440.325714 ms
+
+
+RESULT, 4096, 32, 540672, 8, 440.325714
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 488.718994 ms
+
+
+RESULT, 4096, 32, 1081344, 4, 488.718994
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 535.360168 ms
+
+
+RESULT, 4096, 32, 2162688, 2, 535.360168
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 532.943970 ms
+
+
+RESULT, 4096, 32, 4325376, 1, 532.943970
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1264.306152 ms
+
+
+RESULT, 4096, 64, 132, 31776, 1264.306152
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 655.833130 ms
+
+
+RESULT, 4096, 64, 264, 15888, 655.833130
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 353.970306 ms
+
+
+RESULT, 4096, 64, 528, 7944, 353.970306
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 365.688995 ms
+
+
+RESULT, 4096, 64, 1056, 3972, 365.688995
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 278.743835 ms
+
+
+RESULT, 4096, 64, 2112, 1986, 278.743835
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 277.672180 ms
+
+
+RESULT, 4096, 64, 4224, 993, 277.672180
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 258.181610 ms
+
+
+RESULT, 4096, 64, 8448, 497, 258.181610
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 253.587265 ms
+
+
+RESULT, 4096, 64, 12672, 331, 253.587265
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 257.344849 ms
+
+
+RESULT, 4096, 64, 16896, 249, 257.344849
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 253.263794 ms
+
+
+RESULT, 4096, 64, 25344, 166, 253.263794
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 254.323105 ms
+
+
+RESULT, 4096, 64, 33792, 125, 254.323105
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 254.423187 ms
+
+
+RESULT, 4096, 64, 50688, 83, 254.423187
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 255.664917 ms
+
+
+RESULT, 4096, 64, 67584, 63, 255.664917
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 257.431335 ms
+
+
+RESULT, 4096, 64, 101376, 42, 257.431335
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 259.194244 ms
+
+
+RESULT, 4096, 64, 135168, 32, 259.194244
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 262.529266 ms
+
+
+RESULT, 4096, 64, 202752, 21, 262.529266
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 267.355469 ms
+
+
+RESULT, 4096, 64, 270336, 16, 267.355469
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 282.008179 ms
+
+
+RESULT, 4096, 64, 540672, 8, 282.008179
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 312.853333 ms
+
+
+RESULT, 4096, 64, 1081344, 4, 312.853333
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 346.458130 ms
+
+
+RESULT, 4096, 64, 2162688, 2, 346.458130
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 382.658875 ms
+
+
+RESULT, 4096, 64, 4325376, 1, 382.658875
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 810.946960 ms
+
+
+RESULT, 4096, 128, 132, 31776, 810.946960
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 442.656921 ms
+
+
+RESULT, 4096, 128, 264, 15888, 442.656921
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 260.571808 ms
+
+
+RESULT, 4096, 128, 528, 7944, 260.571808
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 287.006958 ms
+
+
+RESULT, 4096, 128, 1056, 3972, 287.006958
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 222.007050 ms
+
+
+RESULT, 4096, 128, 2112, 1986, 222.007050
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 221.233841 ms
+
+
+RESULT, 4096, 128, 4224, 993, 221.233841
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 205.204498 ms
+
+
+RESULT, 4096, 128, 8448, 497, 205.204498
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 202.913284 ms
+
+
+RESULT, 4096, 128, 12672, 331, 202.913284
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 202.860199 ms
+
+
+RESULT, 4096, 128, 16896, 249, 202.860199
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 198.622574 ms
+
+
+RESULT, 4096, 128, 25344, 166, 198.622574
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 201.986801 ms
+
+
+RESULT, 4096, 128, 33792, 125, 201.986801
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 200.442368 ms
+
+
+RESULT, 4096, 128, 50688, 83, 200.442368
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 202.051132 ms
+
+
+RESULT, 4096, 128, 67584, 63, 202.051132
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 202.627701 ms
+
+
+RESULT, 4096, 128, 101376, 42, 202.627701
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 204.675476 ms
+
+
+RESULT, 4096, 128, 135168, 32, 204.675476
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 205.671921 ms
+
+
+RESULT, 4096, 128, 202752, 21, 205.671921
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 209.299103 ms
+
+
+RESULT, 4096, 128, 270336, 16, 209.299103
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 218.063248 ms
+
+
+RESULT, 4096, 128, 540672, 8, 218.063248
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 235.821091 ms
+
+
+RESULT, 4096, 128, 1081344, 4, 235.821091
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 264.322510 ms
+
+
+RESULT, 4096, 128, 2162688, 2, 264.322510
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 314.522095 ms
+
+
+RESULT, 4096, 128, 4325376, 1, 314.522095
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 536.227661 ms
+
+
+RESULT, 4096, 256, 132, 31776, 536.227661
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 305.046570 ms
+
+
+RESULT, 4096, 256, 264, 15888, 305.046570
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 196.486191 ms
+
+
+RESULT, 4096, 256, 528, 7944, 196.486191
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 187.176529 ms
+
+
+RESULT, 4096, 256, 1056, 3972, 187.176529
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 180.686401 ms
+
+
+RESULT, 4096, 256, 2112, 1986, 180.686401
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 172.624878 ms
+
+
+RESULT, 4096, 256, 4224, 993, 172.624878
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 170.364471 ms
+
+
+RESULT, 4096, 256, 8448, 497, 170.364471
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 169.501907 ms
+
+
+RESULT, 4096, 256, 12672, 331, 169.501907
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 169.128922 ms
+
+
+RESULT, 4096, 256, 16896, 249, 169.128922
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 168.555023 ms
+
+
+RESULT, 4096, 256, 25344, 166, 168.555023
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 169.259552 ms
+
+
+RESULT, 4096, 256, 33792, 125, 169.259552
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 169.140823 ms
+
+
+RESULT, 4096, 256, 50688, 83, 169.140823
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 170.018265 ms
+
+
+RESULT, 4096, 256, 67584, 63, 170.018265
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 171.159714 ms
+
+
+RESULT, 4096, 256, 101376, 42, 171.159714
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 172.225510 ms
+
+
+RESULT, 4096, 256, 135168, 32, 172.225510
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 174.332779 ms
+
+
+RESULT, 4096, 256, 202752, 21, 174.332779
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 176.836212 ms
+
+
+RESULT, 4096, 256, 270336, 16, 176.836212
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 186.014359 ms
+
+
+RESULT, 4096, 256, 540672, 8, 186.014359
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 202.780609 ms
+
+
+RESULT, 4096, 256, 1081344, 4, 202.780609
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 230.318619 ms
+
+
+RESULT, 4096, 256, 2162688, 2, 230.318619
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 289.702057 ms
+
+
+RESULT, 4096, 256, 4325376, 1, 289.702057
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 432.918152 ms
+
+
+RESULT, 4096, 512, 132, 31776, 432.918152
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 300.347626 ms
+
+
+RESULT, 4096, 512, 264, 15888, 300.347626
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 292.040863 ms
+
+
+RESULT, 4096, 512, 528, 7944, 292.040863
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 286.416046 ms
+
+
+RESULT, 4096, 512, 1056, 3972, 286.416046
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 281.563873 ms
+
+
+RESULT, 4096, 512, 2112, 1986, 281.563873
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 279.158844 ms
+
+
+RESULT, 4096, 512, 4224, 993, 279.158844
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 278.354553 ms
+
+
+RESULT, 4096, 512, 8448, 497, 278.354553
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 278.104401 ms
+
+
+RESULT, 4096, 512, 12672, 331, 278.104401
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 278.638123 ms
+
+
+RESULT, 4096, 512, 16896, 249, 278.638123
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 279.044250 ms
+
+
+RESULT, 4096, 512, 25344, 166, 279.044250
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 279.960541 ms
+
+
+RESULT, 4096, 512, 33792, 125, 279.960541
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 280.465820 ms
+
+
+RESULT, 4096, 512, 50688, 83, 280.465820
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 282.701538 ms
+
+
+RESULT, 4096, 512, 67584, 63, 282.701538
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 285.588654 ms
+
+
+RESULT, 4096, 512, 101376, 42, 285.588654
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 288.644165 ms
+
+
+RESULT, 4096, 512, 135168, 32, 288.644165
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 293.327362 ms
+
+
+RESULT, 4096, 512, 202752, 21, 293.327362
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 300.490112 ms
+
+
+RESULT, 4096, 512, 270336, 16, 300.490112
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 320.892212 ms
+
+
+RESULT, 4096, 512, 540672, 8, 320.892212
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 356.763489 ms
+
+
+RESULT, 4096, 512, 1081344, 4, 356.763489
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 439.499481 ms
+
+
+RESULT, 4096, 512, 2162688, 2, 439.499481
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 609.487671 ms
+
+
+RESULT, 4096, 512, 4325376, 1, 609.487671
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 507.331726 ms
+
+
+RESULT, 4096, 1024, 132, 31776, 507.331726
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 500.529144 ms
+
+
+RESULT, 4096, 1024, 264, 15888, 500.529144
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 498.264221 ms
+
+
+RESULT, 4096, 1024, 528, 7944, 498.264221
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 497.860199 ms
+
+
+RESULT, 4096, 1024, 1056, 3972, 497.860199
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 497.365356 ms
+
+
+RESULT, 4096, 1024, 2112, 1986, 497.365356
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 497.751282 ms
+
+
+RESULT, 4096, 1024, 4224, 993, 497.751282
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 499.097198 ms
+
+
+RESULT, 4096, 1024, 8448, 497, 499.097198
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 499.546173 ms
+
+
+RESULT, 4096, 1024, 12672, 331, 499.546173
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 501.303406 ms
+
+
+RESULT, 4096, 1024, 16896, 249, 501.303406
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 502.693878 ms
+
+
+RESULT, 4096, 1024, 25344, 166, 502.693878
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 505.055664 ms
+
+
+RESULT, 4096, 1024, 33792, 125, 505.055664
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 506.750854 ms
+
+
+RESULT, 4096, 1024, 50688, 83, 506.750854
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 511.705078 ms
+
+
+RESULT, 4096, 1024, 67584, 63, 511.705078
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 518.260437 ms
+
+
+RESULT, 4096, 1024, 101376, 42, 518.260437
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 525.071411 ms
+
+
+RESULT, 4096, 1024, 135168, 32, 525.071411
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    21
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 535.869202 ms
+
+
+RESULT, 4096, 1024, 202752, 21, 535.869202
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 551.248413 ms
+
+
+RESULT, 4096, 1024, 270336, 16, 551.248413
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 593.632568 ms
+
+
+RESULT, 4096, 1024, 540672, 8, 593.632568
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 679.566406 ms
+
+
+RESULT, 4096, 1024, 1081344, 4, 679.566406
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 854.052795 ms
+
+
+RESULT, 4096, 1024, 2162688, 2, 854.052795
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     1
+
+Warmup complete for ch12_merge_circular_buffer_kernel_v2
+Execution time for ch12_merge_circular_buffer_kernel_v2: 1185.043579 ms
+
+
+RESULT, 4096, 1024, 4325376, 1, 1185.043579
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+Benchmark Finished at: 2026-01-16 00:38:23

@@ -1,0 +1,4999 @@
+Currently using CUDA device 0: NVIDIA H200
+Filling B...
+Filling A...
+B filled.
+A filled.
+A[0]-A[4]:                       -1073.741455, -1073.741455, -1073.741455, -1073.741455, -1073.741455
+A[1ULL<<31]-A[(1ULL<<31)+4]:         0.006359,     0.006360,     0.006360,     0.006360,     0.006360
+A[last-4]-A[last]:                3221.253174,  3221.253174,  3221.253174,  3221.253174,  3221.253174
+B[0]-B[4]:                       -1073.741577, -1073.741577, -1073.741577, -1073.741577, -1073.741577
+B[1ULL<<31]-B[(1ULL<<31)+4]:         0.002702,     0.002703,     0.002704,     0.002705,     0.002705
+B[last-4]-B[last]:                3221.222656,  3221.222656,  3221.222656,  3221.222656,  3221.222656
+C[0]-C[4]:                       -1073.741577, -1073.741577, -1073.741577, -1073.741577, -1073.741577
+C[1ULL<<32]-C[(1ULL<<32)+4]:         0.004528,     0.004528,     0.004528,     0.004529,     0.004529
+C[last-4]-C[last]:                3221.253174,  3221.253174,  3221.253174,  3221.253174,  3221.253174
+C_gpu[0]-C_gpu[4]:                       -1073.741577, -1073.741577, -1073.741577, -1073.741577, -1073.741577
+C_gpu[1ULL<<32]-C_gpu[(1ULL<<32)+4]:         0.004528,     0.004528,     0.004528,     0.004529,     0.004529
+C_gpu[last-4]-C_gpu[last]:                3221.253174,  3221.253174,  3221.253174,  3221.253174,  3221.253174
+EQUAL CHECK SUCCESS!
+
+Benchmark started at: 2026-01-15 16:52:29
+
+################################################################
+########## Starting Benchmark for tile_sizes:   512
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 3767.127441 ms
+
+
+RESULT, 512, 32, 132, 254201, 3767.127441
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1896.152710 ms
+
+
+RESULT, 512, 32, 264, 127101, 1896.152710
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 969.474915 ms
+
+
+RESULT, 512, 32, 528, 63551, 969.474915
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 513.170105 ms
+
+
+RESULT, 512, 32, 1056, 31776, 513.170105
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 285.722168 ms
+
+
+RESULT, 512, 32, 2112, 15888, 285.722168
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.783966 ms
+
+
+RESULT, 512, 32, 4224, 7944, 175.783966
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 176.109558 ms
+
+
+RESULT, 512, 32, 8448, 3972, 176.109558
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 176.346817 ms
+
+
+RESULT, 512, 32, 12672, 2648, 176.346817
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.106949 ms
+
+
+RESULT, 512, 32, 16896, 1986, 175.106949
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.982727 ms
+
+
+RESULT, 512, 32, 25344, 1324, 175.982727
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.280762 ms
+
+
+RESULT, 512, 32, 33792, 993, 175.280762
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 174.810532 ms
+
+
+RESULT, 512, 32, 50688, 662, 174.810532
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 174.613129 ms
+
+
+RESULT, 512, 32, 67584, 497, 174.613129
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 173.700455 ms
+
+
+RESULT, 512, 32, 101376, 331, 173.700455
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 173.346237 ms
+
+
+RESULT, 512, 32, 135168, 249, 173.346237
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 172.825317 ms
+
+
+RESULT, 512, 32, 202752, 166, 172.825317
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 173.032562 ms
+
+
+RESULT, 512, 32, 270336, 125, 173.032562
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 173.057205 ms
+
+
+RESULT, 512, 32, 540672, 63, 173.057205
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.503983 ms
+
+
+RESULT, 512, 32, 1081344, 32, 175.503983
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 180.786285 ms
+
+
+RESULT, 512, 32, 2162688, 16, 180.786285
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 190.927368 ms
+
+
+RESULT, 512, 32, 4325376, 8, 190.927368
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 2598.541748 ms
+
+
+RESULT, 512, 64, 132, 254201, 2598.541748
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1308.439575 ms
+
+
+RESULT, 512, 64, 264, 127101, 1308.439575
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 677.354980 ms
+
+
+RESULT, 512, 64, 528, 63551, 677.354980
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 366.640747 ms
+
+
+RESULT, 512, 64, 1056, 31776, 366.640747
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 245.289825 ms
+
+
+RESULT, 512, 64, 2112, 15888, 245.289825
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 231.722305 ms
+
+
+RESULT, 512, 64, 4224, 7944, 231.722305
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 207.100082 ms
+
+
+RESULT, 512, 64, 8448, 3972, 207.100082
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 201.372635 ms
+
+
+RESULT, 512, 64, 12672, 2648, 201.372635
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 198.593536 ms
+
+
+RESULT, 512, 64, 16896, 1986, 198.593536
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 195.803284 ms
+
+
+RESULT, 512, 64, 25344, 1324, 195.803284
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 194.471008 ms
+
+
+RESULT, 512, 64, 33792, 993, 194.471008
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 193.015350 ms
+
+
+RESULT, 512, 64, 50688, 662, 193.015350
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 192.465759 ms
+
+
+RESULT, 512, 64, 67584, 497, 192.465759
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 191.791443 ms
+
+
+RESULT, 512, 64, 101376, 331, 191.791443
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 191.550247 ms
+
+
+RESULT, 512, 64, 135168, 249, 191.550247
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 191.178284 ms
+
+
+RESULT, 512, 64, 202752, 166, 191.178284
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 191.385071 ms
+
+
+RESULT, 512, 64, 270336, 125, 191.385071
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 191.841995 ms
+
+
+RESULT, 512, 64, 540672, 63, 191.841995
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 193.846970 ms
+
+
+RESULT, 512, 64, 1081344, 32, 193.846970
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 198.879120 ms
+
+
+RESULT, 512, 64, 2162688, 16, 198.879120
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 212.385742 ms
+
+
+RESULT, 512, 64, 4325376, 8, 212.385742
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 2048.533936 ms
+
+
+RESULT, 512, 128, 132, 254201, 2048.533936
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1063.664795 ms
+
+
+RESULT, 512, 128, 264, 127101, 1063.664795
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 577.014587 ms
+
+
+RESULT, 512, 128, 528, 63551, 577.014587
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 402.117706 ms
+
+
+RESULT, 512, 128, 1056, 31776, 402.117706
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 365.423523 ms
+
+
+RESULT, 512, 128, 2112, 15888, 365.423523
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 337.554321 ms
+
+
+RESULT, 512, 128, 4224, 7944, 337.554321
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 323.421143 ms
+
+
+RESULT, 512, 128, 8448, 3972, 323.421143
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 318.895050 ms
+
+
+RESULT, 512, 128, 12672, 2648, 318.895050
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 316.693115 ms
+
+
+RESULT, 512, 128, 16896, 1986, 316.693115
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 314.407898 ms
+
+
+RESULT, 512, 128, 25344, 1324, 314.407898
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 313.471100 ms
+
+
+RESULT, 512, 128, 33792, 993, 313.471100
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 312.348175 ms
+
+
+RESULT, 512, 128, 50688, 662, 312.348175
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 312.173737 ms
+
+
+RESULT, 512, 128, 67584, 497, 312.173737
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 311.763977 ms
+
+
+RESULT, 512, 128, 101376, 331, 311.763977
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 312.107452 ms
+
+
+RESULT, 512, 128, 135168, 249, 312.107452
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 312.572357 ms
+
+
+RESULT, 512, 128, 202752, 166, 312.572357
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 313.286377 ms
+
+
+RESULT, 512, 128, 270336, 125, 313.286377
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 315.396942 ms
+
+
+RESULT, 512, 128, 540672, 63, 315.396942
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 319.602783 ms
+
+
+RESULT, 512, 128, 1081344, 32, 319.602783
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 326.559875 ms
+
+
+RESULT, 512, 128, 2162688, 16, 326.559875
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 343.417267 ms
+
+
+RESULT, 512, 128, 4325376, 8, 343.417267
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1817.381714 ms
+
+
+RESULT, 512, 256, 132, 254201, 1817.381714
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1010.995178 ms
+
+
+RESULT, 512, 256, 264, 127101, 1010.995178
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 715.562988 ms
+
+
+RESULT, 512, 256, 528, 63551, 715.562988
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 645.974182 ms
+
+
+RESULT, 512, 256, 1056, 31776, 645.974182
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 600.695801 ms
+
+
+RESULT, 512, 256, 2112, 15888, 600.695801
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 576.707092 ms
+
+
+RESULT, 512, 256, 4224, 7944, 576.707092
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 565.660889 ms
+
+
+RESULT, 512, 256, 8448, 3972, 565.660889
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 561.947632 ms
+
+
+RESULT, 512, 256, 12672, 2648, 561.947632
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 560.348267 ms
+
+
+RESULT, 512, 256, 16896, 1986, 560.348267
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 558.406494 ms
+
+
+RESULT, 512, 256, 25344, 1324, 558.406494
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 557.697754 ms
+
+
+RESULT, 512, 256, 33792, 993, 557.697754
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 556.823853 ms
+
+
+RESULT, 512, 256, 50688, 662, 556.823853
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 556.756531 ms
+
+
+RESULT, 512, 256, 67584, 497, 556.756531
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 556.500732 ms
+
+
+RESULT, 512, 256, 101376, 331, 556.500732
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 557.048706 ms
+
+
+RESULT, 512, 256, 135168, 249, 557.048706
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 557.496582 ms
+
+
+RESULT, 512, 256, 202752, 166, 557.496582
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 558.477661 ms
+
+
+RESULT, 512, 256, 270336, 125, 558.477661
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 561.995178 ms
+
+
+RESULT, 512, 256, 540672, 63, 561.995178
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 569.880005 ms
+
+
+RESULT, 512, 256, 1081344, 32, 569.880005
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 584.181030 ms
+
+
+RESULT, 512, 256, 2162688, 16, 584.181030
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 618.159729 ms
+
+
+RESULT, 512, 256, 4325376, 8, 618.159729
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                254201
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1881.920288 ms
+
+
+RESULT, 512, 512, 132, 254201, 1881.920288
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1302.668335 ms
+
+
+RESULT, 512, 512, 264, 127101, 1302.668335
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1188.968262 ms
+
+
+RESULT, 512, 512, 528, 63551, 1188.968262
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1103.839966 ms
+
+
+RESULT, 512, 512, 1056, 31776, 1103.839966
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1069.231567 ms
+
+
+RESULT, 512, 512, 2112, 15888, 1069.231567
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1052.449463 ms
+
+
+RESULT, 512, 512, 4224, 7944, 1052.449463
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1043.548950 ms
+
+
+RESULT, 512, 512, 8448, 3972, 1043.548950
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  2648
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1040.786133 ms
+
+
+RESULT, 512, 512, 12672, 2648, 1040.786133
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1040.111328 ms
+
+
+RESULT, 512, 512, 16896, 1986, 1040.111328
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1038.489014 ms
+
+
+RESULT, 512, 512, 25344, 1324, 1038.489014
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1038.379395 ms
+
+
+RESULT, 512, 512, 33792, 993, 1038.379395
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1037.998413 ms
+
+
+RESULT, 512, 512, 50688, 662, 1037.998413
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1038.560181 ms
+
+
+RESULT, 512, 512, 67584, 497, 1038.560181
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1038.853638 ms
+
+
+RESULT, 512, 512, 101376, 331, 1038.853638
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1040.504883 ms
+
+
+RESULT, 512, 512, 135168, 249, 1040.504883
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1042.051758 ms
+
+
+RESULT, 512, 512, 202752, 166, 1042.051758
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1044.681763 ms
+
+
+RESULT, 512, 512, 270336, 125, 1044.681763
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1053.809326 ms
+
+
+RESULT, 512, 512, 540672, 63, 1053.809326
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1071.957031 ms
+
+
+RESULT, 512, 512, 1081344, 32, 1071.957031
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1104.197754 ms
+
+
+RESULT, 512, 512, 2162688, 16, 1104.197754
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1176.298828 ms
+
+
+RESULT, 512, 512, 4325376, 8, 1176.298828
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  1024
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 3217.059570 ms
+
+
+RESULT, 1024, 32, 132, 127101, 3217.059570
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1747.838257 ms
+
+
+RESULT, 1024, 32, 264, 63551, 1747.838257
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 945.652100 ms
+
+
+RESULT, 1024, 32, 528, 31776, 945.652100
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 497.527222 ms
+
+
+RESULT, 1024, 32, 1056, 15888, 497.527222
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 274.516571 ms
+
+
+RESULT, 1024, 32, 2112, 7944, 274.516571
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 306.861603 ms
+
+
+RESULT, 1024, 32, 4224, 3972, 306.861603
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 233.379730 ms
+
+
+RESULT, 1024, 32, 8448, 1986, 233.379730
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 210.132324 ms
+
+
+RESULT, 1024, 32, 12672, 1324, 210.132324
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 229.178909 ms
+
+
+RESULT, 1024, 32, 16896, 993, 229.178909
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 210.442123 ms
+
+
+RESULT, 1024, 32, 25344, 662, 210.442123
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 217.624283 ms
+
+
+RESULT, 1024, 32, 33792, 497, 217.624283
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 211.482071 ms
+
+
+RESULT, 1024, 32, 50688, 331, 211.482071
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 209.750977 ms
+
+
+RESULT, 1024, 32, 67584, 249, 209.750977
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 208.069946 ms
+
+
+RESULT, 1024, 32, 101376, 166, 208.069946
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 207.661987 ms
+
+
+RESULT, 1024, 32, 135168, 125, 207.661987
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 206.927689 ms
+
+
+RESULT, 1024, 32, 202752, 83, 206.927689
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 207.448807 ms
+
+
+RESULT, 1024, 32, 270336, 63, 207.448807
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 206.634476 ms
+
+
+RESULT, 1024, 32, 540672, 32, 206.634476
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 208.129868 ms
+
+
+RESULT, 1024, 32, 1081344, 16, 208.129868
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 211.729980 ms
+
+
+RESULT, 1024, 32, 2162688, 8, 211.729980
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 221.319351 ms
+
+
+RESULT, 1024, 32, 4325376, 4, 221.319351
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 2023.921753 ms
+
+
+RESULT, 1024, 64, 132, 127101, 2023.921753
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1079.132080 ms
+
+
+RESULT, 1024, 64, 264, 63551, 1079.132080
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 578.955261 ms
+
+
+RESULT, 1024, 64, 528, 31776, 578.955261
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 307.035034 ms
+
+
+RESULT, 1024, 64, 1056, 15888, 307.035034
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 184.805923 ms
+
+
+RESULT, 1024, 64, 2112, 7944, 184.805923
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 183.361130 ms
+
+
+RESULT, 1024, 64, 4224, 3972, 183.361130
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 158.266907 ms
+
+
+RESULT, 1024, 64, 8448, 1986, 158.266907
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 155.111343 ms
+
+
+RESULT, 1024, 64, 12672, 1324, 155.111343
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 155.714249 ms
+
+
+RESULT, 1024, 64, 16896, 993, 155.714249
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 151.977524 ms
+
+
+RESULT, 1024, 64, 25344, 662, 151.977524
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 152.450272 ms
+
+
+RESULT, 1024, 64, 33792, 497, 152.450272
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.972168 ms
+
+
+RESULT, 1024, 64, 50688, 331, 150.972168
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.774567 ms
+
+
+RESULT, 1024, 64, 67584, 249, 150.774567
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.363007 ms
+
+
+RESULT, 1024, 64, 101376, 166, 150.363007
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.383804 ms
+
+
+RESULT, 1024, 64, 135168, 125, 150.383804
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.135605 ms
+
+
+RESULT, 1024, 64, 202752, 83, 150.135605
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 150.734390 ms
+
+
+RESULT, 1024, 64, 270336, 63, 150.734390
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 151.021561 ms
+
+
+RESULT, 1024, 64, 540672, 32, 151.021561
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 154.476654 ms
+
+
+RESULT, 1024, 64, 1081344, 16, 154.476654
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 159.893768 ms
+
+
+RESULT, 1024, 64, 2162688, 8, 159.893768
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 171.929825 ms
+
+
+RESULT, 1024, 64, 4325376, 4, 171.929825
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1380.951904 ms
+
+
+RESULT, 1024, 128, 132, 127101, 1380.951904
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 716.279785 ms
+
+
+RESULT, 1024, 128, 264, 63551, 716.279785
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 388.112671 ms
+
+
+RESULT, 1024, 128, 528, 31776, 388.112671
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 256.254791 ms
+
+
+RESULT, 1024, 128, 1056, 15888, 256.254791
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 237.282639 ms
+
+
+RESULT, 1024, 128, 2112, 7944, 237.282639
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 216.461487 ms
+
+
+RESULT, 1024, 128, 4224, 3972, 216.461487
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 207.647598 ms
+
+
+RESULT, 1024, 128, 8448, 1986, 207.647598
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 204.683731 ms
+
+
+RESULT, 1024, 128, 12672, 1324, 204.683731
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 203.193222 ms
+
+
+RESULT, 1024, 128, 16896, 993, 203.193222
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 201.735229 ms
+
+
+RESULT, 1024, 128, 25344, 662, 201.735229
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 201.267914 ms
+
+
+RESULT, 1024, 128, 33792, 497, 201.267914
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 200.530289 ms
+
+
+RESULT, 1024, 128, 50688, 331, 200.530289
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 200.580444 ms
+
+
+RESULT, 1024, 128, 67584, 249, 200.580444
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 200.580429 ms
+
+
+RESULT, 1024, 128, 101376, 166, 200.580429
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 200.921753 ms
+
+
+RESULT, 1024, 128, 135168, 125, 200.921753
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 201.373413 ms
+
+
+RESULT, 1024, 128, 202752, 83, 201.373413
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 202.527908 ms
+
+
+RESULT, 1024, 128, 270336, 63, 202.527908
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 205.285782 ms
+
+
+RESULT, 1024, 128, 540672, 32, 205.285782
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 209.878967 ms
+
+
+RESULT, 1024, 128, 1081344, 16, 209.878967
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 218.757019 ms
+
+
+RESULT, 1024, 128, 2162688, 8, 218.757019
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 240.046738 ms
+
+
+RESULT, 1024, 128, 4325376, 4, 240.046738
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1146.534180 ms
+
+
+RESULT, 1024, 256, 132, 127101, 1146.534180
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 631.975037 ms
+
+
+RESULT, 1024, 256, 264, 63551, 631.975037
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 431.089813 ms
+
+
+RESULT, 1024, 256, 528, 31776, 431.089813
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 395.511047 ms
+
+
+RESULT, 1024, 256, 1056, 15888, 395.511047
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 367.000031 ms
+
+
+RESULT, 1024, 256, 2112, 7944, 367.000031
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 353.175812 ms
+
+
+RESULT, 1024, 256, 4224, 3972, 353.175812
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 346.522614 ms
+
+
+RESULT, 1024, 256, 8448, 1986, 346.522614
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 344.353821 ms
+
+
+RESULT, 1024, 256, 12672, 1324, 344.353821
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 343.414185 ms
+
+
+RESULT, 1024, 256, 16896, 993, 343.414185
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 342.273956 ms
+
+
+RESULT, 1024, 256, 25344, 662, 342.273956
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 342.137451 ms
+
+
+RESULT, 1024, 256, 33792, 497, 342.137451
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 341.626282 ms
+
+
+RESULT, 1024, 256, 50688, 331, 341.626282
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 341.942902 ms
+
+
+RESULT, 1024, 256, 67584, 249, 341.942902
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 342.080383 ms
+
+
+RESULT, 1024, 256, 101376, 166, 342.080383
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 342.605377 ms
+
+
+RESULT, 1024, 256, 135168, 125, 342.605377
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 342.980072 ms
+
+
+RESULT, 1024, 256, 202752, 83, 342.980072
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 344.748474 ms
+
+
+RESULT, 1024, 256, 270336, 63, 344.748474
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 349.237274 ms
+
+
+RESULT, 1024, 256, 540672, 32, 349.237274
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 357.871918 ms
+
+
+RESULT, 1024, 256, 1081344, 16, 357.871918
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 374.583099 ms
+
+
+RESULT, 1024, 256, 2162688, 8, 374.583099
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 412.187134 ms
+
+
+RESULT, 1024, 256, 4325376, 4, 412.187134
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1092.567383 ms
+
+
+RESULT, 1024, 512, 132, 127101, 1092.567383
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 761.786804 ms
+
+
+RESULT, 1024, 512, 264, 63551, 761.786804
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 707.951904 ms
+
+
+RESULT, 1024, 512, 528, 31776, 707.951904
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 659.830078 ms
+
+
+RESULT, 1024, 512, 1056, 15888, 659.830078
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 640.378845 ms
+
+
+RESULT, 1024, 512, 2112, 7944, 640.378845
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 630.474976 ms
+
+
+RESULT, 1024, 512, 4224, 3972, 630.474976
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 625.856140 ms
+
+
+RESULT, 1024, 512, 8448, 1986, 625.856140
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 624.348145 ms
+
+
+RESULT, 1024, 512, 12672, 1324, 624.348145
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 624.045715 ms
+
+
+RESULT, 1024, 512, 16896, 993, 624.045715
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 623.187927 ms
+
+
+RESULT, 1024, 512, 25344, 662, 623.187927
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 623.438843 ms
+
+
+RESULT, 1024, 512, 33792, 497, 623.438843
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 623.315857 ms
+
+
+RESULT, 1024, 512, 50688, 331, 623.315857
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 624.142639 ms
+
+
+RESULT, 1024, 512, 67584, 249, 624.142639
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 624.956299 ms
+
+
+RESULT, 1024, 512, 101376, 166, 624.956299
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 626.195679 ms
+
+
+RESULT, 1024, 512, 135168, 125, 626.195679
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 627.251770 ms
+
+
+RESULT, 1024, 512, 202752, 83, 627.251770
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 630.635254 ms
+
+
+RESULT, 1024, 512, 270336, 63, 630.635254
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 639.826111 ms
+
+
+RESULT, 1024, 512, 540672, 32, 639.826111
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 656.403687 ms
+
+
+RESULT, 1024, 512, 1081344, 16, 656.403687
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 689.571899 ms
+
+
+RESULT, 1024, 512, 2162688, 8, 689.571899
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 773.770020 ms
+
+
+RESULT, 1024, 512, 4325376, 4, 773.770020
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                127101
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1372.536865 ms
+
+
+RESULT, 1024, 1024, 132, 127101, 1372.536865
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1332.236084 ms
+
+
+RESULT, 1024, 1024, 264, 63551, 1332.236084
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1329.022949 ms
+
+
+RESULT, 1024, 1024, 528, 31776, 1329.022949
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1328.433472 ms
+
+
+RESULT, 1024, 1024, 1056, 15888, 1328.433472
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1326.331421 ms
+
+
+RESULT, 1024, 1024, 2112, 7944, 1326.331421
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1325.806152 ms
+
+
+RESULT, 1024, 1024, 4224, 3972, 1325.806152
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1326.863892 ms
+
+
+RESULT, 1024, 1024, 8448, 1986, 1326.863892
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                  1324
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1327.468140 ms
+
+
+RESULT, 1024, 1024, 12672, 1324, 1327.468140
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1329.156250 ms
+
+
+RESULT, 1024, 1024, 16896, 993, 1329.156250
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1330.155884 ms
+
+
+RESULT, 1024, 1024, 25344, 662, 1330.155884
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1332.822998 ms
+
+
+RESULT, 1024, 1024, 33792, 497, 1332.822998
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1334.433716 ms
+
+
+RESULT, 1024, 1024, 50688, 331, 1334.433716
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1338.608154 ms
+
+
+RESULT, 1024, 1024, 67584, 249, 1338.608154
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1344.196411 ms
+
+
+RESULT, 1024, 1024, 101376, 166, 1344.196411
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1351.334839 ms
+
+
+RESULT, 1024, 1024, 135168, 125, 1351.334839
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1361.147339 ms
+
+
+RESULT, 1024, 1024, 202752, 83, 1361.147339
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1376.226562 ms
+
+
+RESULT, 1024, 1024, 270336, 63, 1376.226562
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1424.910278 ms
+
+
+RESULT, 1024, 1024, 540672, 32, 1424.910278
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1522.954346 ms
+
+
+RESULT, 1024, 1024, 1081344, 16, 1522.954346
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1697.853394 ms
+
+
+RESULT, 1024, 1024, 2162688, 8, 1697.853394
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 2057.659180 ms
+
+
+RESULT, 1024, 1024, 4325376, 4, 2057.659180
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  2048
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 3031.280518 ms
+
+
+RESULT, 2048, 32, 132, 63551, 3031.280518
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1654.688599 ms
+
+
+RESULT, 2048, 32, 264, 31776, 1654.688599
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 858.737488 ms
+
+
+RESULT, 2048, 32, 528, 15888, 858.737488
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 453.122620 ms
+
+
+RESULT, 2048, 32, 1056, 7944, 453.122620
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 476.626251 ms
+
+
+RESULT, 2048, 32, 2112, 3972, 476.626251
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 359.853058 ms
+
+
+RESULT, 2048, 32, 4224, 1986, 359.853058
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 305.340088 ms
+
+
+RESULT, 2048, 32, 8448, 993, 305.340088
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 319.506073 ms
+
+
+RESULT, 2048, 32, 12672, 662, 319.506073
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 305.140930 ms
+
+
+RESULT, 2048, 32, 16896, 497, 305.140930
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 303.720123 ms
+
+
+RESULT, 2048, 32, 25344, 331, 303.720123
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 304.152710 ms
+
+
+RESULT, 2048, 32, 33792, 249, 304.152710
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 303.041687 ms
+
+
+RESULT, 2048, 32, 50688, 166, 303.041687
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 303.158173 ms
+
+
+RESULT, 2048, 32, 67584, 125, 303.158173
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 301.551666 ms
+
+
+RESULT, 2048, 32, 101376, 83, 301.551666
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 302.069946 ms
+
+
+RESULT, 2048, 32, 135168, 63, 302.069946
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 300.411621 ms
+
+
+RESULT, 2048, 32, 202752, 42, 300.411621
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 300.917816 ms
+
+
+RESULT, 2048, 32, 270336, 32, 300.917816
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 299.509399 ms
+
+
+RESULT, 2048, 32, 540672, 16, 299.509399
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 300.706879 ms
+
+
+RESULT, 2048, 32, 1081344, 8, 300.706879
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 304.194397 ms
+
+
+RESULT, 2048, 32, 2162688, 4, 304.194397
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 315.253937 ms
+
+
+RESULT, 2048, 32, 4325376, 2, 315.253937
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1787.465942 ms
+
+
+RESULT, 2048, 64, 132, 63551, 1787.465942
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 969.425171 ms
+
+
+RESULT, 2048, 64, 264, 31776, 969.425171
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 518.595093 ms
+
+
+RESULT, 2048, 64, 528, 15888, 518.595093
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 291.223175 ms
+
+
+RESULT, 2048, 64, 1056, 7944, 291.223175
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 321.812958 ms
+
+
+RESULT, 2048, 64, 2112, 3972, 321.812958
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 249.432602 ms
+
+
+RESULT, 2048, 64, 4224, 1986, 249.432602
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 216.128693 ms
+
+
+RESULT, 2048, 64, 8448, 993, 216.128693
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 222.481354 ms
+
+
+RESULT, 2048, 64, 12672, 662, 222.481354
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 215.457947 ms
+
+
+RESULT, 2048, 64, 16896, 497, 215.457947
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 213.349350 ms
+
+
+RESULT, 2048, 64, 25344, 331, 213.349350
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 214.511627 ms
+
+
+RESULT, 2048, 64, 33792, 249, 214.511627
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 213.407974 ms
+
+
+RESULT, 2048, 64, 50688, 166, 213.407974
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 213.899704 ms
+
+
+RESULT, 2048, 64, 67584, 125, 213.899704
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 212.809616 ms
+
+
+RESULT, 2048, 64, 101376, 83, 212.809616
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 213.537125 ms
+
+
+RESULT, 2048, 64, 135168, 63, 213.537125
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 212.906387 ms
+
+
+RESULT, 2048, 64, 202752, 42, 212.906387
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 213.714783 ms
+
+
+RESULT, 2048, 64, 270336, 32, 213.714783
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 214.360489 ms
+
+
+RESULT, 2048, 64, 540672, 16, 214.360489
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 216.332047 ms
+
+
+RESULT, 2048, 64, 1081344, 8, 216.332047
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 223.475098 ms
+
+
+RESULT, 2048, 64, 2162688, 4, 223.475098
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 244.290466 ms
+
+
+RESULT, 2048, 64, 4325376, 2, 244.290466
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1121.062500 ms
+
+
+RESULT, 2048, 128, 132, 63551, 1121.062500
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 601.902161 ms
+
+
+RESULT, 2048, 128, 264, 31776, 601.902161
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 325.078156 ms
+
+
+RESULT, 2048, 128, 528, 15888, 325.078156
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 194.909973 ms
+
+
+RESULT, 2048, 128, 1056, 7944, 194.909973
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 193.186829 ms
+
+
+RESULT, 2048, 128, 2112, 3972, 193.186829
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 166.778030 ms
+
+
+RESULT, 2048, 128, 4224, 1986, 166.778030
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 163.359680 ms
+
+
+RESULT, 2048, 128, 8448, 993, 163.359680
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 160.128784 ms
+
+
+RESULT, 2048, 128, 12672, 662, 160.128784
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 159.689682 ms
+
+
+RESULT, 2048, 128, 16896, 497, 159.689682
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 157.991196 ms
+
+
+RESULT, 2048, 128, 25344, 331, 157.991196
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 158.158691 ms
+
+
+RESULT, 2048, 128, 33792, 249, 158.158691
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 157.450821 ms
+
+
+RESULT, 2048, 128, 50688, 166, 157.450821
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 157.773499 ms
+
+
+RESULT, 2048, 128, 67584, 125, 157.773499
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 157.487747 ms
+
+
+RESULT, 2048, 128, 101376, 83, 157.487747
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 158.211060 ms
+
+
+RESULT, 2048, 128, 135168, 63, 158.211060
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 158.361633 ms
+
+
+RESULT, 2048, 128, 202752, 42, 158.361633
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 159.235229 ms
+
+
+RESULT, 2048, 128, 270336, 32, 159.235229
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 160.899506 ms
+
+
+RESULT, 2048, 128, 540672, 16, 160.899506
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 164.820999 ms
+
+
+RESULT, 2048, 128, 1081344, 8, 164.820999
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 173.789978 ms
+
+
+RESULT, 2048, 128, 2162688, 4, 173.789978
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 195.516022 ms
+
+
+RESULT, 2048, 128, 4325376, 2, 195.516022
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 760.093262 ms
+
+
+RESULT, 2048, 256, 132, 63551, 760.093262
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 415.309052 ms
+
+
+RESULT, 2048, 256, 264, 31776, 415.309052
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 272.330658 ms
+
+
+RESULT, 2048, 256, 528, 15888, 272.330658
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 252.021973 ms
+
+
+RESULT, 2048, 256, 1056, 7944, 252.021973
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 230.514114 ms
+
+
+RESULT, 2048, 256, 2112, 3972, 230.514114
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 221.911133 ms
+
+
+RESULT, 2048, 256, 4224, 1986, 221.911133
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 217.636490 ms
+
+
+RESULT, 2048, 256, 8448, 993, 217.636490
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 216.180664 ms
+
+
+RESULT, 2048, 256, 12672, 662, 216.180664
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 215.682678 ms
+
+
+RESULT, 2048, 256, 16896, 497, 215.682678
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 214.983215 ms
+
+
+RESULT, 2048, 256, 25344, 331, 214.983215
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 215.070999 ms
+
+
+RESULT, 2048, 256, 33792, 249, 215.070999
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 214.916107 ms
+
+
+RESULT, 2048, 256, 50688, 166, 214.916107
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 215.172791 ms
+
+
+RESULT, 2048, 256, 67584, 125, 215.172791
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 215.322556 ms
+
+
+RESULT, 2048, 256, 101376, 83, 215.322556
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 216.369217 ms
+
+
+RESULT, 2048, 256, 135168, 63, 216.369217
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 217.755569 ms
+
+
+RESULT, 2048, 256, 202752, 42, 217.755569
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 219.191833 ms
+
+
+RESULT, 2048, 256, 270336, 32, 219.191833
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 225.042740 ms
+
+
+RESULT, 2048, 256, 540672, 16, 225.042740
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 233.982086 ms
+
+
+RESULT, 2048, 256, 1081344, 8, 233.982086
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 254.216400 ms
+
+
+RESULT, 2048, 256, 2162688, 4, 254.216400
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 299.045898 ms
+
+
+RESULT, 2048, 256, 4325376, 2, 299.045898
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 672.004700 ms
+
+
+RESULT, 2048, 512, 132, 63551, 672.004700
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 456.636017 ms
+
+
+RESULT, 2048, 512, 264, 31776, 456.636017
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 423.352020 ms
+
+
+RESULT, 2048, 512, 528, 15888, 423.352020
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 392.285400 ms
+
+
+RESULT, 2048, 512, 1056, 7944, 392.285400
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 380.731140 ms
+
+
+RESULT, 2048, 512, 2112, 3972, 380.731140
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 375.062531 ms
+
+
+RESULT, 2048, 512, 4224, 1986, 375.062531
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 372.494019 ms
+
+
+RESULT, 2048, 512, 8448, 993, 372.494019
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 371.638947 ms
+
+
+RESULT, 2048, 512, 12672, 662, 371.638947
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 371.588562 ms
+
+
+RESULT, 2048, 512, 16896, 497, 371.588562
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 371.192108 ms
+
+
+RESULT, 2048, 512, 25344, 331, 371.192108
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 371.760559 ms
+
+
+RESULT, 2048, 512, 33792, 249, 371.760559
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 372.029144 ms
+
+
+RESULT, 2048, 512, 50688, 166, 372.029144
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 372.904663 ms
+
+
+RESULT, 2048, 512, 67584, 125, 372.904663
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 373.339722 ms
+
+
+RESULT, 2048, 512, 101376, 83, 373.339722
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 375.351288 ms
+
+
+RESULT, 2048, 512, 135168, 63, 375.351288
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 377.831146 ms
+
+
+RESULT, 2048, 512, 202752, 42, 377.831146
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 380.834503 ms
+
+
+RESULT, 2048, 512, 270336, 32, 380.834503
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 390.535675 ms
+
+
+RESULT, 2048, 512, 540672, 16, 390.535675
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 407.025757 ms
+
+
+RESULT, 2048, 512, 1081344, 8, 407.025757
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 451.918488 ms
+
+
+RESULT, 2048, 512, 2162688, 4, 451.918488
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 537.368103 ms
+
+
+RESULT, 2048, 512, 4325376, 2, 537.368103
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 63551
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 784.382751 ms
+
+
+RESULT, 2048, 1024, 132, 63551, 784.382751
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 771.455566 ms
+
+
+RESULT, 2048, 1024, 264, 31776, 771.455566
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 767.946716 ms
+
+
+RESULT, 2048, 1024, 528, 15888, 767.946716
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 767.395935 ms
+
+
+RESULT, 2048, 1024, 1056, 7944, 767.395935
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 765.878357 ms
+
+
+RESULT, 2048, 1024, 2112, 3972, 765.878357
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 765.807861 ms
+
+
+RESULT, 2048, 1024, 4224, 1986, 765.807861
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 767.172974 ms
+
+
+RESULT, 2048, 1024, 8448, 993, 767.172974
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   662
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 767.702820 ms
+
+
+RESULT, 2048, 1024, 12672, 662, 767.702820
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 769.144897 ms
+
+
+RESULT, 2048, 1024, 16896, 497, 769.144897
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 770.025574 ms
+
+
+RESULT, 2048, 1024, 25344, 331, 770.025574
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 773.063721 ms
+
+
+RESULT, 2048, 1024, 33792, 249, 773.063721
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 775.622742 ms
+
+
+RESULT, 2048, 1024, 50688, 166, 775.622742
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 779.297058 ms
+
+
+RESULT, 2048, 1024, 67584, 125, 779.297058
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 783.999084 ms
+
+
+RESULT, 2048, 1024, 101376, 83, 783.999084
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 792.430786 ms
+
+
+RESULT, 2048, 1024, 135168, 63, 792.430786
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 806.232788 ms
+
+
+RESULT, 2048, 1024, 202752, 42, 806.232788
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 818.066101 ms
+
+
+RESULT, 2048, 1024, 270336, 32, 818.066101
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 869.697632 ms
+
+
+RESULT, 2048, 1024, 540672, 16, 869.697632
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 959.611633 ms
+
+
+RESULT, 2048, 1024, 1081344, 8, 959.611633
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1137.049561 ms
+
+
+RESULT, 2048, 1024, 2162688, 4, 1137.049561
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1507.328491 ms
+
+
+RESULT, 2048, 1024, 4325376, 2, 1507.328491
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+################################################################
+########## Starting Benchmark for tile_sizes:  4096
+################################################################
+
+################################################################
+Starting Benchmark for Block Size:    32
+################################################################
+grid:    132,     1,     1
+block:    32,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 3037.210693 ms
+
+
+RESULT, 4096, 32, 132, 31776, 3037.210693
+-------------------------------
+grid:    264,     1,     1
+block:    32,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1564.673706 ms
+
+
+RESULT, 4096, 32, 264, 15888, 1564.673706
+-------------------------------
+grid:    528,     1,     1
+block:    32,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 811.663513 ms
+
+
+RESULT, 4096, 32, 528, 7944, 811.663513
+-------------------------------
+grid:   1056,     1,     1
+block:    32,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 811.514160 ms
+
+
+RESULT, 4096, 32, 1056, 3972, 811.514160
+-------------------------------
+grid:   2112,     1,     1
+block:    32,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 618.457642 ms
+
+
+RESULT, 4096, 32, 2112, 1986, 618.457642
+-------------------------------
+grid:   4224,     1,     1
+block:    32,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 614.892944 ms
+
+
+RESULT, 4096, 32, 4224, 993, 614.892944
+-------------------------------
+grid:   8448,     1,     1
+block:    32,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 570.487000 ms
+
+
+RESULT, 4096, 32, 8448, 497, 570.487000
+-------------------------------
+grid:  12672,     1,     1
+block:    32,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 563.015259 ms
+
+
+RESULT, 4096, 32, 12672, 331, 563.015259
+-------------------------------
+grid:  16896,     1,     1
+block:    32,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 565.449768 ms
+
+
+RESULT, 4096, 32, 16896, 249, 565.449768
+-------------------------------
+grid:  25344,     1,     1
+block:    32,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 559.148071 ms
+
+
+RESULT, 4096, 32, 25344, 166, 559.148071
+-------------------------------
+grid:  33792,     1,     1
+block:    32,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 557.192261 ms
+
+
+RESULT, 4096, 32, 33792, 125, 557.192261
+-------------------------------
+grid:  50688,     1,     1
+block:    32,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 554.344666 ms
+
+
+RESULT, 4096, 32, 50688, 83, 554.344666
+-------------------------------
+grid:  67584,     1,     1
+block:    32,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 555.304199 ms
+
+
+RESULT, 4096, 32, 67584, 63, 555.304199
+-------------------------------
+grid:  101376,     1,     1
+block:    32,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 552.770508 ms
+
+
+RESULT, 4096, 32, 101376, 42, 552.770508
+-------------------------------
+grid:  135168,     1,     1
+block:    32,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 553.879883 ms
+
+
+RESULT, 4096, 32, 135168, 32, 553.879883
+-------------------------------
+grid:  202752,     1,     1
+block:    32,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 549.958374 ms
+
+
+RESULT, 4096, 32, 202752, 21, 549.958374
+-------------------------------
+grid:  270336,     1,     1
+block:    32,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 550.524536 ms
+
+
+RESULT, 4096, 32, 270336, 16, 550.524536
+-------------------------------
+grid:  540672,     1,     1
+block:    32,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 546.584778 ms
+
+
+RESULT, 4096, 32, 540672, 8, 546.584778
+-------------------------------
+grid:  1081344,     1,     1
+block:    32,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 542.669495 ms
+
+
+RESULT, 4096, 32, 1081344, 4, 542.669495
+-------------------------------
+grid:  2162688,     1,     1
+block:    32,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 537.005310 ms
+
+
+RESULT, 4096, 32, 2162688, 2, 537.005310
+-------------------------------
+grid:  4325376,     1,     1
+block:    32,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 540.056274 ms
+
+
+RESULT, 4096, 32, 4325376, 1, 540.056274
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:    64
+################################################################
+grid:    132,     1,     1
+block:    64,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1681.763916 ms
+
+
+RESULT, 4096, 64, 132, 31776, 1681.763916
+-------------------------------
+grid:    264,     1,     1
+block:    64,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 878.933289 ms
+
+
+RESULT, 4096, 64, 264, 15888, 878.933289
+-------------------------------
+grid:    528,     1,     1
+block:    64,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 473.026825 ms
+
+
+RESULT, 4096, 64, 528, 7944, 473.026825
+-------------------------------
+grid:   1056,     1,     1
+block:    64,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 487.119720 ms
+
+
+RESULT, 4096, 64, 1056, 3972, 487.119720
+-------------------------------
+grid:   2112,     1,     1
+block:    64,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 370.097565 ms
+
+
+RESULT, 4096, 64, 2112, 1986, 370.097565
+-------------------------------
+grid:   4224,     1,     1
+block:    64,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 368.396729 ms
+
+
+RESULT, 4096, 64, 4224, 993, 368.396729
+-------------------------------
+grid:   8448,     1,     1
+block:    64,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 341.092957 ms
+
+
+RESULT, 4096, 64, 8448, 497, 341.092957
+-------------------------------
+grid:  12672,     1,     1
+block:    64,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 336.699890 ms
+
+
+RESULT, 4096, 64, 12672, 331, 336.699890
+-------------------------------
+grid:  16896,     1,     1
+block:    64,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 339.079498 ms
+
+
+RESULT, 4096, 64, 16896, 249, 339.079498
+-------------------------------
+grid:  25344,     1,     1
+block:    64,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 334.953979 ms
+
+
+RESULT, 4096, 64, 25344, 166, 334.953979
+-------------------------------
+grid:  33792,     1,     1
+block:    64,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 334.038635 ms
+
+
+RESULT, 4096, 64, 33792, 125, 334.038635
+-------------------------------
+grid:  50688,     1,     1
+block:    64,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 333.211029 ms
+
+
+RESULT, 4096, 64, 50688, 83, 333.211029
+-------------------------------
+grid:  67584,     1,     1
+block:    64,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 333.050476 ms
+
+
+RESULT, 4096, 64, 67584, 63, 333.050476
+-------------------------------
+grid:  101376,     1,     1
+block:    64,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 332.516205 ms
+
+
+RESULT, 4096, 64, 101376, 42, 332.516205
+-------------------------------
+grid:  135168,     1,     1
+block:    64,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 332.957611 ms
+
+
+RESULT, 4096, 64, 135168, 32, 332.957611
+-------------------------------
+grid:  202752,     1,     1
+block:    64,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 332.811615 ms
+
+
+RESULT, 4096, 64, 202752, 21, 332.811615
+-------------------------------
+grid:  270336,     1,     1
+block:    64,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 333.220398 ms
+
+
+RESULT, 4096, 64, 270336, 16, 333.220398
+-------------------------------
+grid:  540672,     1,     1
+block:    64,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 334.486786 ms
+
+
+RESULT, 4096, 64, 540672, 8, 334.486786
+-------------------------------
+grid:  1081344,     1,     1
+block:    64,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 338.901947 ms
+
+
+RESULT, 4096, 64, 1081344, 4, 338.901947
+-------------------------------
+grid:  2162688,     1,     1
+block:    64,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 355.579254 ms
+
+
+RESULT, 4096, 64, 2162688, 2, 355.579254
+-------------------------------
+grid:  4325376,     1,     1
+block:    64,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 393.565033 ms
+
+
+RESULT, 4096, 64, 4325376, 1, 393.565033
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   128
+################################################################
+grid:    132,     1,     1
+block:   128,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1023.962097 ms
+
+
+RESULT, 4096, 128, 132, 31776, 1023.962097
+-------------------------------
+grid:    264,     1,     1
+block:   128,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 555.502747 ms
+
+
+RESULT, 4096, 128, 264, 15888, 555.502747
+-------------------------------
+grid:    528,     1,     1
+block:   128,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 325.232758 ms
+
+
+RESULT, 4096, 128, 528, 7944, 325.232758
+-------------------------------
+grid:   1056,     1,     1
+block:   128,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 341.345001 ms
+
+
+RESULT, 4096, 128, 1056, 3972, 341.345001
+-------------------------------
+grid:   2112,     1,     1
+block:   128,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 267.281860 ms
+
+
+RESULT, 4096, 128, 2112, 1986, 267.281860
+-------------------------------
+grid:   4224,     1,     1
+block:   128,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 260.922028 ms
+
+
+RESULT, 4096, 128, 4224, 993, 260.922028
+-------------------------------
+grid:   8448,     1,     1
+block:   128,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 244.191360 ms
+
+
+RESULT, 4096, 128, 8448, 497, 244.191360
+-------------------------------
+grid:  12672,     1,     1
+block:   128,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 241.435822 ms
+
+
+RESULT, 4096, 128, 12672, 331, 241.435822
+-------------------------------
+grid:  16896,     1,     1
+block:   128,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 241.926712 ms
+
+
+RESULT, 4096, 128, 16896, 249, 241.926712
+-------------------------------
+grid:  25344,     1,     1
+block:   128,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.221664 ms
+
+
+RESULT, 4096, 128, 25344, 166, 239.221664
+-------------------------------
+grid:  33792,     1,     1
+block:   128,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.591110 ms
+
+
+RESULT, 4096, 128, 33792, 125, 239.591110
+-------------------------------
+grid:  50688,     1,     1
+block:   128,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 238.591003 ms
+
+
+RESULT, 4096, 128, 50688, 83, 238.591003
+-------------------------------
+grid:  67584,     1,     1
+block:   128,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.232071 ms
+
+
+RESULT, 4096, 128, 67584, 63, 239.232071
+-------------------------------
+grid:  101376,     1,     1
+block:   128,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.227005 ms
+
+
+RESULT, 4096, 128, 101376, 42, 239.227005
+-------------------------------
+grid:  135168,     1,     1
+block:   128,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.562866 ms
+
+
+RESULT, 4096, 128, 135168, 32, 239.562866
+-------------------------------
+grid:  202752,     1,     1
+block:   128,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 239.463730 ms
+
+
+RESULT, 4096, 128, 202752, 21, 239.463730
+-------------------------------
+grid:  270336,     1,     1
+block:   128,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 241.632278 ms
+
+
+RESULT, 4096, 128, 270336, 16, 241.632278
+-------------------------------
+grid:  540672,     1,     1
+block:   128,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 244.004333 ms
+
+
+RESULT, 4096, 128, 540672, 8, 244.004333
+-------------------------------
+grid:  1081344,     1,     1
+block:   128,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 249.801834 ms
+
+
+RESULT, 4096, 128, 1081344, 4, 249.801834
+-------------------------------
+grid:  2162688,     1,     1
+block:   128,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 272.967194 ms
+
+
+RESULT, 4096, 128, 2162688, 2, 272.967194
+-------------------------------
+grid:  4325376,     1,     1
+block:   128,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 326.202087 ms
+
+
+RESULT, 4096, 128, 4325376, 1, 326.202087
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   256
+################################################################
+grid:    132,     1,     1
+block:   256,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 636.276306 ms
+
+
+RESULT, 4096, 256, 132, 31776, 636.276306
+-------------------------------
+grid:    264,     1,     1
+block:   256,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 352.580902 ms
+
+
+RESULT, 4096, 256, 264, 15888, 352.580902
+-------------------------------
+grid:    528,     1,     1
+block:   256,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 212.709839 ms
+
+
+RESULT, 4096, 256, 528, 7944, 212.709839
+-------------------------------
+grid:   1056,     1,     1
+block:   256,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 210.725647 ms
+
+
+RESULT, 4096, 256, 1056, 3972, 210.725647
+-------------------------------
+grid:   2112,     1,     1
+block:   256,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 178.654282 ms
+
+
+RESULT, 4096, 256, 2112, 1986, 178.654282
+-------------------------------
+grid:   4224,     1,     1
+block:   256,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 175.127930 ms
+
+
+RESULT, 4096, 256, 4224, 993, 175.127930
+-------------------------------
+grid:   8448,     1,     1
+block:   256,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 171.619553 ms
+
+
+RESULT, 4096, 256, 8448, 497, 171.619553
+-------------------------------
+grid:  12672,     1,     1
+block:   256,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 170.230240 ms
+
+
+RESULT, 4096, 256, 12672, 331, 170.230240
+-------------------------------
+grid:  16896,     1,     1
+block:   256,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 169.771271 ms
+
+
+RESULT, 4096, 256, 16896, 249, 169.771271
+-------------------------------
+grid:  25344,     1,     1
+block:   256,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 168.954376 ms
+
+
+RESULT, 4096, 256, 25344, 166, 168.954376
+-------------------------------
+grid:  33792,     1,     1
+block:   256,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 169.341293 ms
+
+
+RESULT, 4096, 256, 33792, 125, 169.341293
+-------------------------------
+grid:  50688,     1,     1
+block:   256,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 169.004196 ms
+
+
+RESULT, 4096, 256, 50688, 83, 169.004196
+-------------------------------
+grid:  67584,     1,     1
+block:   256,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 169.604065 ms
+
+
+RESULT, 4096, 256, 67584, 63, 169.604065
+-------------------------------
+grid:  101376,     1,     1
+block:   256,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 170.002106 ms
+
+
+RESULT, 4096, 256, 101376, 42, 170.002106
+-------------------------------
+grid:  135168,     1,     1
+block:   256,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 170.770493 ms
+
+
+RESULT, 4096, 256, 135168, 32, 170.770493
+-------------------------------
+grid:  202752,     1,     1
+block:   256,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 171.277847 ms
+
+
+RESULT, 4096, 256, 202752, 21, 171.277847
+-------------------------------
+grid:  270336,     1,     1
+block:   256,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 172.873398 ms
+
+
+RESULT, 4096, 256, 270336, 16, 172.873398
+-------------------------------
+grid:  540672,     1,     1
+block:   256,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 176.499451 ms
+
+
+RESULT, 4096, 256, 540672, 8, 176.499451
+-------------------------------
+grid:  1081344,     1,     1
+block:   256,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 187.560638 ms
+
+
+RESULT, 4096, 256, 1081344, 4, 187.560638
+-------------------------------
+grid:  2162688,     1,     1
+block:   256,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 204.581940 ms
+
+
+RESULT, 4096, 256, 2162688, 2, 204.581940
+-------------------------------
+grid:  4325376,     1,     1
+block:   256,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 258.736053 ms
+
+
+RESULT, 4096, 256, 4325376, 1, 258.736053
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:   512
+################################################################
+grid:    132,     1,     1
+block:   512,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 441.155884 ms
+
+
+RESULT, 4096, 512, 132, 31776, 441.155884
+-------------------------------
+grid:    264,     1,     1
+block:   512,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 288.624451 ms
+
+
+RESULT, 4096, 512, 264, 15888, 288.624451
+-------------------------------
+grid:    528,     1,     1
+block:   512,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 269.138977 ms
+
+
+RESULT, 4096, 512, 528, 7944, 269.138977
+-------------------------------
+grid:   1056,     1,     1
+block:   512,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 245.779099 ms
+
+
+RESULT, 4096, 512, 1056, 3972, 245.779099
+-------------------------------
+grid:   2112,     1,     1
+block:   512,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 238.518250 ms
+
+
+RESULT, 4096, 512, 2112, 1986, 238.518250
+-------------------------------
+grid:   4224,     1,     1
+block:   512,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 234.843033 ms
+
+
+RESULT, 4096, 512, 4224, 993, 234.843033
+-------------------------------
+grid:   8448,     1,     1
+block:   512,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 233.343475 ms
+
+
+RESULT, 4096, 512, 8448, 497, 233.343475
+-------------------------------
+grid:  12672,     1,     1
+block:   512,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 232.756210 ms
+
+
+RESULT, 4096, 512, 12672, 331, 232.756210
+-------------------------------
+grid:  16896,     1,     1
+block:   512,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 232.915329 ms
+
+
+RESULT, 4096, 512, 16896, 249, 232.915329
+-------------------------------
+grid:  25344,     1,     1
+block:   512,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 232.877930 ms
+
+
+RESULT, 4096, 512, 25344, 166, 232.877930
+-------------------------------
+grid:  33792,     1,     1
+block:   512,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 233.393280 ms
+
+
+RESULT, 4096, 512, 33792, 125, 233.393280
+-------------------------------
+grid:  50688,     1,     1
+block:   512,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 233.375351 ms
+
+
+RESULT, 4096, 512, 50688, 83, 233.375351
+-------------------------------
+grid:  67584,     1,     1
+block:   512,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 234.606323 ms
+
+
+RESULT, 4096, 512, 67584, 63, 234.606323
+-------------------------------
+grid:  101376,     1,     1
+block:   512,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 235.916367 ms
+
+
+RESULT, 4096, 512, 101376, 42, 235.916367
+-------------------------------
+grid:  135168,     1,     1
+block:   512,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 237.642731 ms
+
+
+RESULT, 4096, 512, 135168, 32, 237.642731
+-------------------------------
+grid:  202752,     1,     1
+block:   512,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 240.316498 ms
+
+
+RESULT, 4096, 512, 202752, 21, 240.316498
+-------------------------------
+grid:  270336,     1,     1
+block:   512,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 244.535461 ms
+
+
+RESULT, 4096, 512, 270336, 16, 244.535461
+-------------------------------
+grid:  540672,     1,     1
+block:   512,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 250.328873 ms
+
+
+RESULT, 4096, 512, 540672, 8, 250.328873
+-------------------------------
+grid:  1081344,     1,     1
+block:   512,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 275.459015 ms
+
+
+RESULT, 4096, 512, 1081344, 4, 275.459015
+-------------------------------
+grid:  2162688,     1,     1
+block:   512,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 312.986572 ms
+
+
+RESULT, 4096, 512, 2162688, 2, 312.986572
+-------------------------------
+grid:  4325376,     1,     1
+block:   512,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 437.101257 ms
+
+
+RESULT, 4096, 512, 4325376, 1, 437.101257
+-------------------------------
+
+################################################################
+Starting Benchmark for Block Size:  1024
+################################################################
+grid:    132,     1,     1
+block:  1024,     1,     1
+total_iteration                 31776
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 468.455109 ms
+
+
+RESULT, 4096, 1024, 132, 31776, 468.455109
+-------------------------------
+grid:    264,     1,     1
+block:  1024,     1,     1
+total_iteration                 15888
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 462.235870 ms
+
+
+RESULT, 4096, 1024, 264, 15888, 462.235870
+-------------------------------
+grid:    528,     1,     1
+block:  1024,     1,     1
+total_iteration                  7944
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 460.166046 ms
+
+
+RESULT, 4096, 1024, 528, 7944, 460.166046
+-------------------------------
+grid:   1056,     1,     1
+block:  1024,     1,     1
+total_iteration                  3972
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 459.754883 ms
+
+
+RESULT, 4096, 1024, 1056, 3972, 459.754883
+-------------------------------
+grid:   2112,     1,     1
+block:  1024,     1,     1
+total_iteration                  1986
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 459.272705 ms
+
+
+RESULT, 4096, 1024, 2112, 1986, 459.272705
+-------------------------------
+grid:   4224,     1,     1
+block:  1024,     1,     1
+total_iteration                   993
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 459.818481 ms
+
+
+RESULT, 4096, 1024, 4224, 993, 459.818481
+-------------------------------
+grid:   8448,     1,     1
+block:  1024,     1,     1
+total_iteration                   497
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 461.176636 ms
+
+
+RESULT, 4096, 1024, 8448, 497, 461.176636
+-------------------------------
+grid:  12672,     1,     1
+block:  1024,     1,     1
+total_iteration                   331
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 461.633270 ms
+
+
+RESULT, 4096, 1024, 12672, 331, 461.633270
+-------------------------------
+grid:  16896,     1,     1
+block:  1024,     1,     1
+total_iteration                   249
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 463.297729 ms
+
+
+RESULT, 4096, 1024, 16896, 249, 463.297729
+-------------------------------
+grid:  25344,     1,     1
+block:  1024,     1,     1
+total_iteration                   166
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 464.800415 ms
+
+
+RESULT, 4096, 1024, 25344, 166, 464.800415
+-------------------------------
+grid:  33792,     1,     1
+block:  1024,     1,     1
+total_iteration                   125
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 466.919769 ms
+
+
+RESULT, 4096, 1024, 33792, 125, 466.919769
+-------------------------------
+grid:  50688,     1,     1
+block:  1024,     1,     1
+total_iteration                    83
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 468.751678 ms
+
+
+RESULT, 4096, 1024, 50688, 83, 468.751678
+-------------------------------
+grid:  67584,     1,     1
+block:  1024,     1,     1
+total_iteration                    63
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 473.618866 ms
+
+
+RESULT, 4096, 1024, 67584, 63, 473.618866
+-------------------------------
+grid:  101376,     1,     1
+block:  1024,     1,     1
+total_iteration                    42
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 480.387146 ms
+
+
+RESULT, 4096, 1024, 101376, 42, 480.387146
+-------------------------------
+grid:  135168,     1,     1
+block:  1024,     1,     1
+total_iteration                    32
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 487.083862 ms
+
+
+RESULT, 4096, 1024, 135168, 32, 487.083862
+-------------------------------
+grid:  202752,     1,     1
+block:  1024,     1,     1
+total_iteration                    21
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 498.303284 ms
+
+
+RESULT, 4096, 1024, 202752, 21, 498.303284
+-------------------------------
+grid:  270336,     1,     1
+block:  1024,     1,     1
+total_iteration                    16
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 513.799438 ms
+
+
+RESULT, 4096, 1024, 270336, 16, 513.799438
+-------------------------------
+grid:  540672,     1,     1
+block:  1024,     1,     1
+total_iteration                     8
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 559.852295 ms
+
+
+RESULT, 4096, 1024, 540672, 8, 559.852295
+-------------------------------
+grid:  1081344,     1,     1
+block:  1024,     1,     1
+total_iteration                     4
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 650.318237 ms
+
+
+RESULT, 4096, 1024, 1081344, 4, 650.318237
+-------------------------------
+grid:  2162688,     1,     1
+block:  1024,     1,     1
+total_iteration                     2
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 832.524536 ms
+
+
+RESULT, 4096, 1024, 2162688, 2, 832.524536
+-------------------------------
+grid:  4325376,     1,     1
+block:  1024,     1,     1
+total_iteration                     1
+
+Warmup complete for merge_tiled_kernel
+Execution time for merge_tiled_kernel: 1203.280518 ms
+
+
+RESULT, 4096, 1024, 4325376, 1, 1203.280518
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+Benchmark Finished at: 2026-01-15 20:41:09
