@@ -1,0 +1,13 @@
+Benchmark started at: 2026-01-26 16:05:56
+Currently using CUDA device 0: NVIDIA H200
+Total Global Memory: 139.72 GB
+Benchmark Data Size: 268435456 elements (1.00 GB per array)
+------------------------------------------------------------------------------------------------------------
+
+radix_sort_7
+
+Input Mode: 3. random
+
+Average Time: 130.269630 ms
+
+Verify Finished at: 2026-01-26 16:08:12
