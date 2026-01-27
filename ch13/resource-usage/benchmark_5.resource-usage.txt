@@ -1,0 +1,75 @@
+
+Fatbin elf code:
+================
+arch = sm_90
+code version = [1,7]
+host = linux
+compile_size = 64bit
+
+Resource usage:
+ Common:
+  GLOBAL:0
+
+Fatbin elf code:
+================
+arch = sm_90
+code version = [1,7]
+host = linux
+compile_size = 64bit
+
+Resource usage:
+ Common:
+  GLOBAL:23 CONSTANT[4]:184
+ Function void cub::CUB_200302_900_NS::DeviceScanKernel<cub::CUB_200302_900_NS::DeviceScanPolicy<unsigned int, thrust::THRUST_200302_900_NS::plus<void> >::Policy900, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, cub::CUB_200302_900_NS::ScanTileState<unsigned int, true>, thrust::THRUST_200302_900_NS::plus<void>, cub::CUB_200302_900_NS::detail::InputValue<unsigned int, unsigned int*>, long, unsigned int>(thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, cub::CUB_200302_900_NS::ScanTileState<unsigned int, true>, int, thrust::THRUST_200302_900_NS::plus<void>, cub::CUB_200302_900_NS::detail::InputValue<unsigned int, unsigned int*>, long):
+  REG:48 STACK:0 SHARED:8720 LOCAL:0 CONSTANT[0]:584 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceScanKernel<cub::CUB_200302_900_NS::DeviceScanPolicy<unsigned int, thrust::THRUST_200302_900_NS::plus<void> >::Policy900, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, cub::CUB_200302_900_NS::ScanTileState<unsigned int, true>, thrust::THRUST_200302_900_NS::plus<void>, cub::CUB_200302_900_NS::detail::InputValue<unsigned int, unsigned int*>, int, unsigned int>(thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, thrust::THRUST_200302_900_NS::device_ptr<unsigned int>, cub::CUB_200302_900_NS::ScanTileState<unsigned int, true>, int, thrust::THRUST_200302_900_NS::plus<void>, cub::CUB_200302_900_NS::detail::InputValue<unsigned int, unsigned int*>, int):
+  REG:48 STACK:0 SHARED:8720 LOCAL:0 CONSTANT[0]:580 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceScanInitKernel<cub::CUB_200302_900_NS::ScanTileState<unsigned int, true> >(cub::CUB_200302_900_NS::ScanTileState<unsigned int, true>, int):
+  REG:12 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:540 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortOnesweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(int*, int*, unsigned int*, unsigned int const*, unsigned int*, unsigned int const*, cub::CUB_200302_900_NS::NullType*, cub::CUB_200302_900_NS::NullType const*, int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:56 STACK:0 SHARED:32768 LOCAL:0 CONSTANT[0]:605 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortHistogramKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int*, unsigned int const*, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:38 STACK:0 SHARED:5120 LOCAL:0 CONSTANT[0]:557 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortDownsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, true, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:244 STACK:0 SHARED:49408 LOCAL:0 CONSTANT[0]:621 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortDownsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, true, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:128 STACK:0 SHARED:48640 LOCAL:0 CONSTANT[0]:621 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortUpsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, true, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:64 STACK:0 SHARED:17408 LOCAL:0 CONSTANT[0]:597 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortUpsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, true, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:48 STACK:0 SHARED:33792 LOCAL:0 CONSTANT[0]:597 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortSingleTileKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:113 STACK:0 SHARED:34880 LOCAL:0 CONSTANT[0]:573 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortOnesweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(int*, int*, unsigned int*, unsigned int const*, unsigned int*, unsigned int const*, cub::CUB_200302_900_NS::NullType*, cub::CUB_200302_900_NS::NullType const*, int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:56 STACK:0 SHARED:32768 LOCAL:0 CONSTANT[0]:605 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortExclusiveSumKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, unsigned int>(unsigned int*):
+  REG:22 STACK:0 SHARED:2208 LOCAL:0 CONSTANT[0]:536 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortHistogramKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int*, unsigned int const*, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:38 STACK:0 SHARED:5120 LOCAL:0 CONSTANT[0]:557 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortDownsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, false, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:244 STACK:0 SHARED:49408 LOCAL:0 CONSTANT[0]:621 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortDownsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, false, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:128 STACK:0 SHARED:48640 LOCAL:0 CONSTANT[0]:621 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::RadixSortScanBinsKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, unsigned int>(unsigned int*, int):
+  REG:80 STACK:0 SHARED:48144 LOCAL:0 CONSTANT[0]:540 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortUpsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, true, false, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:64 STACK:0 SHARED:17408 LOCAL:0 CONSTANT[0]:597 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortUpsweepKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, false, unsigned int, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, unsigned int, int, int, cub::CUB_200302_900_NS::GridEvenShare<unsigned int>, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:48 STACK:0 SHARED:33792 LOCAL:0 CONSTANT[0]:597 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::DeviceRadixSortSingleTileKernel<cub::CUB_200302_900_NS::DeviceRadixSortPolicy<unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int>::Policy900, false, unsigned int, cub::CUB_200302_900_NS::NullType, unsigned int, cub::CUB_200302_900_NS::detail::identity_decomposer_t>(unsigned int const*, unsigned int*, cub::CUB_200302_900_NS::NullType const*, cub::CUB_200302_900_NS::NullType*, unsigned int, int, int, cub::CUB_200302_900_NS::detail::identity_decomposer_t):
+  REG:113 STACK:0 SHARED:34880 LOCAL:0 CONSTANT[0]:573 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void cub::CUB_200302_900_NS::EmptyKernel<void>():
+  REG:4 STACK:0 SHARED:0 LOCAL:0 CONSTANT[0]:528 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_coalesced_scatter<1024u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:21 STACK:0 SHARED:17408 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<1024u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1408 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+Fatbin ptx code:
+================
+arch = sm_90
+code version = [8,4]
+host = linux
+compile_size = 64bit
+compressed
+ptxasOptions = 
