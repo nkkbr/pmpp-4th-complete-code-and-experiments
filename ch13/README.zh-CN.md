@@ -1,5 +1,7 @@
 # Chapter 13: Sorting (排序算法)
 
+[English](https://github.com/nkkbr/pmpp/blob/main/ch13/README.md)
+
 本章主要介绍排序算法的实现。尽管原书涉及了 Merge Sort 等多种排序方法，本项目的实验重点聚焦于 **Radix Sort (基数排序)** 的 CUDA 实现与性能优化。
 
 ## Kernels and Experiments (实验概览)

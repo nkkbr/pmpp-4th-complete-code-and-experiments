@@ -1,5 +1,7 @@
 # Chapter 13: Sorting
 
+[简体中文](https://github.com/nkkbr/pmpp/blob/main/ch13/README.zh-CN.md)
+
 This chapter primarily introduces the implementation of sorting algorithms. Although the original book covers various sorting methods such as Merge Sort, the experiments in this project focus on the CUDA implementation and performance optimization of **Radix Sort**.
 
 ## Kernels and Experiments
