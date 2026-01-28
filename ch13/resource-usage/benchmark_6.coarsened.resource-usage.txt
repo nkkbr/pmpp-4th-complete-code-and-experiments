@@ -1,0 +1,234 @@
+
+===== bench_bs32_co1 =====
+ Function void radix_sort_coalesced_scatter<32u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:19 STACK:0 SHARED:1204 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co2 =====
+ Function void radix_sort_coalesced_scatter<32u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:27 STACK:0 SHARED:1368 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co4 =====
+ Function void radix_sort_coalesced_scatter<32u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:36 STACK:0 SHARED:1696 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co8 =====
+ Function void radix_sort_coalesced_scatter<32u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:51 STACK:0 SHARED:2352 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:29 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co16 =====
+ Function void radix_sort_coalesced_scatter<32u, 16u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:64 STACK:0 SHARED:3664 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 16u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co32 =====
+ Function void radix_sort_coalesced_scatter<32u, 32u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:98 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 32u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co64 =====
+ Function void radix_sort_coalesced_scatter<32u, 64u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:256 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 64u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co128 =====
+ Function void radix_sort_coalesced_scatter<32u, 128u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:512 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 128u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs32_co256 =====
+ Function void radix_sort_coalesced_scatter<32u, 256u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:1024 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<32u, 256u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1036 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co1 =====
+ Function void radix_sort_coalesced_scatter<64u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:22 STACK:0 SHARED:1368 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co2 =====
+ Function void radix_sort_coalesced_scatter<64u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:1696 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co4 =====
+ Function void radix_sort_coalesced_scatter<64u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:36 STACK:0 SHARED:2352 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:20 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co8 =====
+ Function void radix_sort_coalesced_scatter<64u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:55 STACK:0 SHARED:3664 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:29 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co16 =====
+ Function void radix_sort_coalesced_scatter<64u, 16u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:72 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 16u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co32 =====
+ Function void radix_sort_coalesced_scatter<64u, 32u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:102 STACK:0 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 32u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co64 =====
+ Function void radix_sort_coalesced_scatter<64u, 64u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:256 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 64u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs64_co128 =====
+ Function void radix_sort_coalesced_scatter<64u, 128u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:512 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<64u, 128u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1048 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co1 =====
+ Function void radix_sort_coalesced_scatter<128u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:26 STACK:0 SHARED:1696 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:22 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co2 =====
+ Function void radix_sort_coalesced_scatter<128u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:2352 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:22 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co4 =====
+ Function void radix_sort_coalesced_scatter<128u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:40 STACK:0 SHARED:3664 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:22 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co8 =====
+ Function void radix_sort_coalesced_scatter<128u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:51 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:29 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co16 =====
+ Function void radix_sort_coalesced_scatter<128u, 16u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:72 STACK:0 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 16u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co32 =====
+ Function void radix_sort_coalesced_scatter<128u, 32u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:98 STACK:0 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 32u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs128_co64 =====
+ Function void radix_sort_coalesced_scatter<128u, 64u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:32 STACK:256 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<128u, 64u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1072 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co1 =====
+ Function void radix_sort_coalesced_scatter<256u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:26 STACK:0 SHARED:2352 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co2 =====
+ Function void radix_sort_coalesced_scatter<256u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:3664 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co4 =====
+ Function void radix_sort_coalesced_scatter<256u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:36 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co8 =====
+ Function void radix_sort_coalesced_scatter<256u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:48 STACK:0 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co16 =====
+ Function void radix_sort_coalesced_scatter<256u, 16u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:72 STACK:0 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 16u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs256_co32 =====
+ Function void radix_sort_coalesced_scatter<256u, 32u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:102 STACK:0 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<256u, 32u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:32 STACK:0 SHARED:1120 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs512_co1 =====
+ Function void radix_sort_coalesced_scatter<512u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:3664 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<512u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1216 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs512_co2 =====
+ Function void radix_sort_coalesced_scatter<512u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<512u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1216 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs512_co4 =====
+ Function void radix_sort_coalesced_scatter<512u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:40 STACK:0 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<512u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1216 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs512_co8 =====
+ Function void radix_sort_coalesced_scatter<512u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:47 STACK:0 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<512u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1216 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs512_co16 =====
+ Function void radix_sort_coalesced_scatter<512u, 16u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:72 STACK:0 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<512u, 16u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:39 STACK:0 SHARED:1216 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs1024_co1 =====
+ Function void radix_sort_coalesced_scatter<1024u, 1u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:26 STACK:0 SHARED:6288 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<1024u, 1u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1408 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs1024_co2 =====
+ Function void radix_sort_coalesced_scatter<1024u, 2u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:30 STACK:0 SHARED:11536 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<1024u, 2u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1408 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs1024_co4 =====
+ Function void radix_sort_coalesced_scatter<1024u, 4u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:36 STACK:0 SHARED:22032 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<1024u, 4u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1408 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
+
+===== bench_bs1024_co8 =====
+ Function void radix_sort_coalesced_scatter<1024u, 8u>(unsigned int const*, unsigned int*, unsigned int const*, unsigned int):
+  REG:47 STACK:0 SHARED:43024 LOCAL:0 CONSTANT[0]:556 TEXTURE:0 SURFACE:0 SAMPLER:0
+ Function void radix_sort_count_block<1024u, 8u>(unsigned int const*, unsigned int*, unsigned int):
+  REG:34 STACK:0 SHARED:1408 LOCAL:0 CONSTANT[0]:548 TEXTURE:0 SURFACE:0 SAMPLER:0
